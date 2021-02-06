@@ -25,19 +25,19 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/img-9.jpg"
+              src="images/img-3.jpg"
               text="Tip Calculator that works as a tip and pay using the QR Scan code."
               label="Tip Calculator App"
               path="/portfolio"
             />
             <CardItem
-              src="images/img-2.jpg"
+              src="images/img-4.jpg"
               text="Sushi Restaurant that allows the restaurant owner to update their inventory live."
               label="Restuarant Website"
               path="/portfolio"
             />
             <CardItem
-              src="images/img-2.jpg"
+              src="images/img-8.jpg"
               text="Sushi Restaurant that allows the restaurant owner to update their inventory live."
               label="Restuarant Website"
               path="/portfolio"
