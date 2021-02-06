@@ -6,7 +6,7 @@ import CardItem from './CardItem'
 function Cards() {
   return (
     <div className="cards">
-      <h1>Portfolio</h1>
+      <h1>Check Out My Best Work</h1>
       <div className="cards__contianer">
         <div className="cards__wrapper">
           <ul className="cards__items">
