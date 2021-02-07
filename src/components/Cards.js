@@ -10,11 +10,12 @@ function Cards() {
       <div className="cards__contianer">
         <div className="cards__wrapper">
           <ul className="cards__items">
+
             <CardItem
               src="images/img-9.jpg"
               text="Tip Calculator that works as a tip and pay using the QR Scan code."
               label="Tip Calculator App"
-              path="/portfolio"
+              path="/about"
             />
             <CardItem
               src="images/img-2.jpg"
@@ -28,20 +29,21 @@ function Cards() {
               src="images/img-3.jpg"
               text="Tip Calculator that works as a tip and pay using the QR Scan code."
               label="Tip Calculator App"
-              path="/portfolio"
+              path="/contact"
             />
             <CardItem
               src="images/img-4.jpg"
               text="Sushi Restaurant that allows the restaurant owner to update their inventory live."
               label="Restuarant Website"
-              path="/portfolio"
+              path="/sign-up"
             />
-            <CardItem
+                      <CardItem
               src="images/img-8.jpg"
               text="Sushi Restaurant that allows the restaurant owner to update their inventory live."
               label="Restuarant Website"
-              path="/portfolio"
+              path="/blog"
             />
+
           </ul>
         </div>
       </div>

@@ -18,9 +18,18 @@
 }
 
 .about {
-  /* background-image: url(/images/img-2.jpg); */
+  background-image: url('../src/images/img-2.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  font-size: 100px;
+}
+
+.blog {
+  /* background-image: url('/images/img-4.jpg'); */
+  background-position: center;
+  background-size: fill;
   background-repeat: no-repeat;
   color: #000;
   font-size: 100px;
