@@ -43,8 +43,8 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Design</Link>
-            <Link to='/'>Development</Link>
+            <Link to='/'>Web Design</Link>
+            <Link to='/'>Web Development</Link>
             <Link to='/'>Art</Link>
           </div>
           <div class='footer-link-items'>
