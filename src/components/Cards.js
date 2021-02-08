@@ -6,7 +6,7 @@ import CardItem from './CardItem'
 function Cards() {
   return (
     <div className="cards">
-      <h1>Hello. I am here to help build great websites.</h1>
+      <h1>Hello. I am here to help you build great websites.</h1>
       <div className="cards__contianer">
         <div className="cards__wrapper">
           <ul className="cards__items">
@@ -33,7 +33,7 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/img-4.jpg"
-              text="Reach out to me if you are interested in a website. I offer creative and affordable solutions."
+              text="Reach out to me if you are interested in a website or logo. I offer creative and affordable solutions."
               label="Contact James Hooper"
               path="/contact"
             />

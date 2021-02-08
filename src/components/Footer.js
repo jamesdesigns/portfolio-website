@@ -59,10 +59,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-            <i className="fab fa-artstation"></i>&nbsp; JH
+            <i className="fab fa-artstation"></i>&nbsp; 
             </Link>
           </div>
-          <small class='website-rights'>Copyright © 2021 JamesHooperDesigns</small>
+          <small class='website-rights'>Copyright © 2021 James Hooper Designs</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link instagram'
