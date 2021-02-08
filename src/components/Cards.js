@@ -14,19 +14,19 @@ function Cards() {
             <CardItem
               src="images/img-2.jpg"
               text="Tip Calculator that works as a tip and pay using the QR Scan code."
-              label="Tip Calculator App"
+              label="My Story"
               path="/about"
             />
             <CardItem
               src="images/img-home.jpg"
               text="Sushi Restaurant that allows the restaurant owner to update their inventory live."
-              label="Restuarant Website"
+              label="How to Design and Build websites"
               path="/blog"
             />
             <CardItem
               src="images/img-8.jpg"
               text="Sushi Restaurant that allows the restaurant owner to update their inventory live."
-              label="Restuarant Website"
+              label="Web Design Portfolio"
               path="/portfolio"
             />
           </ul>
@@ -34,13 +34,13 @@ function Cards() {
             <CardItem
               src="images/img-4.jpg"
               text="Tip Calculator that works as a tip and pay using the QR Scan code."
-              label="Tip Calculator App"
+              label="Contact James Hooper"
               path="/contact"
             />
             <CardItem
               src="images/img-9.jpg"
               text="Sushi Restaurant that allows the restaurant owner to update their inventory live."
-              label="Restuarant Website"
+              label="Sign Up and Start Learning Today!"
               path="/sign-up"
             />
 
