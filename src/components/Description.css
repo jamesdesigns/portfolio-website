@@ -37,3 +37,16 @@
   float: left;
   margin-top: -115px; */
 }
+
+@media screen and (max-width: 820px) {
+ .role {
+   font-size: 3rem;
+ }
+
+ .thoughts {
+   width: 83.5%;
+ }
+}
+
+@media screen and (max-width: 768px) {
+}
