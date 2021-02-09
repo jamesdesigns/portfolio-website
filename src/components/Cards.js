@@ -30,7 +30,7 @@ function Cards() {
               path="/portfolio"
             />
           </ul>
-          <ul className="cards__items">
+          {/* <ul className="cards__items">
             <CardItem
               src="images/img-4.jpg"
               text="Reach out to me if you are interested in a website or logo. I offer creative and affordable solutions."
@@ -44,7 +44,7 @@ function Cards() {
               path="/sign-up"
             />
 
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>
