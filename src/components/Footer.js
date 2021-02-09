@@ -7,6 +7,11 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
+      <div class='footer-logo'>
+            <Link to='/' className='social-logo'>
+            <i className="fab fa-artstation"></i>&nbsp; 
+            </Link>
+          </div>
         <p className='footer-subscription-heading'>
           Join my newsletter to receive great deals on all my design services.
         </p>
@@ -57,11 +62,6 @@ function Footer() {
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-            <i className="fab fa-artstation"></i>&nbsp; 
-            </Link>
-          </div>
           <small class='website-rights'>Copyright © 2021 James Hooper Designs</small>
           <div class='social-icons'>
             <Link
@@ -79,6 +79,14 @@ function Footer() {
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
+            </Link>
+            <Link
+              class='social-icon-link github'
+              to='/'
+              target='_blank'
+              aria-label='GitHub'
+            >
+              <i class='fab fa-github' />
             </Link>
             <Link
               class='social-icon-link twitter'
