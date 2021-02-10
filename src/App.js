@@ -7,7 +7,7 @@ import About from './components/pages/About'
 import Blog from './components/pages/Blog'
 import Contact from './components/pages/Contact'
 import Portfolio from './components/pages/Portfolio'
-import SignUp from './components/pages/SignUp'
+import HireMe from './components/pages/HireMe'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path='/blog' component={Blog} />
           <Route path='/contact' component={Contact} />
           <Route path='/portfolio' component={Portfolio} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/hire-me' component={HireMe} />
         </Switch>
       </Router>
     </>

@@ -10,7 +10,7 @@
 .blog,
 .contact,
 .portfolio,
-.sign-up {
+.hire-me {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -54,7 +54,7 @@
   font-size: 100px;
 }
 
-.sign-up {
+.hire-me {
   background-image: url('../src/images/img-9.jpg');
   background-position: center;
   background-size: cover;

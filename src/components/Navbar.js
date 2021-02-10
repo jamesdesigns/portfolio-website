@@ -61,7 +61,7 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
+              <Link to="/hire-me" className="nav-links-mobile" onClick={closeMobileMenu}>
                 HIRE ME
               </Link>
             </li>
