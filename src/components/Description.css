@@ -24,9 +24,10 @@
 
 .thoughts {
   margin: 0 auto;
-  width: 46.5%;
+  width: 43.5%;
   line-height: 30px;
   padding-bottom: 7rem;
+  padding-left: 15px;
 }
 
 .fixQuote {

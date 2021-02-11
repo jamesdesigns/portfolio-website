@@ -5,7 +5,7 @@ function Description() {
   return (
     <div className="description">
       <h1 className="role"><span className="fixQuote">&#x0201C;</span>CUTTING EDGE<span className="fixQuote">&#x0201D;</span></h1>
-      <p className="thoughts">What sets me apart is my creative imagination and experience as a graphic designer. My ability to design and develop new and exciting websites continue to leave a lasting impression. I love a good challenge and love finding innovative ways to help improve the success of your business. Everyday I look forward to helping businesses create cutting edge, meaningful, and inspiring work that will help improve your bottom line.</p>
+      <p className="thoughts">What sets me apart is my creative ability to push the boundaries of visual communication. I have the experience you need to help you increase exposure for you and your business. It's a competitive world out there, and it's critical that you stand out from the competition if you want to succeed in this life. I love a good challenge and love finding innovative ways to help improve your company's bottom line.</p>
     </div>
   )
 }
