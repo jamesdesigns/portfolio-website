@@ -9,7 +9,7 @@
 .about,
 .blog,
 .contact,
-.portfolio,
+/* .portfolio, */
 .hire-me {
   display: flex;
   height: 90vh;
@@ -46,11 +46,11 @@
 }
 
 .portfolio {
-  background-image: url('../src/images/img-8.jpg');
+  /* background-image: url('../src/images/img-8.jpg');
   background-position: center;
   background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
+  background-repeat: no-repeat; */
+  color: #000;
   font-size: 100px;
 }
 
@@ -61,4 +61,23 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-card {
+  width: 350px;
+  height: 250px;
+  background-color: #ccc;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
 }
