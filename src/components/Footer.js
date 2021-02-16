@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import logo from '../images/james-hooper-logo-white.svg';
 
 function Footer() {
   return (
@@ -9,7 +10,8 @@ function Footer() {
       <section className='footer-subscription'>
       <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-            <i className="fab fa-artstation"></i>&nbsp; 
+            {/* <i className="fab fa-artstation"></i>&nbsp;  */}
+            <img className="james-logo" src={logo} alt="James Hooper Logo" />
             </Link>
           </div>
         <p className='footer-subscription-heading'>
