@@ -5,6 +5,8 @@
   font-family: 'Assistant', sans-serif;
 }
 
+.pad-left-20 { padding-left: 20px;}
+
 section {
   display: flex;
   flex-direction: column;
@@ -46,9 +48,6 @@ section {
   padding: 3rem 8% 5rem;
 }
 
-.about-container:first-child {
-  padding-left: 10%;
-}
 
 .blog {
   background-image: url('../src/images/img-home.jpg');

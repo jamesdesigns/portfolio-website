@@ -3,13 +3,14 @@ import '../../App.css'
 import Footer from '../Footer'
 
 export default function About() {
+
    return (
     <>
     <h1 className="about">JAMES HOOPER</h1>
     <div className="about-page">
       <div className="about-container">
         <h2>Education</h2>
-        <ul>
+        <ul style={{ listStyleType: "none"}}>
           <li>Utah Valley University</li>
           <li>B.S. Web Design & Development</li>
           <br />
@@ -19,7 +20,7 @@ export default function About() {
       </div>
       <div className="about-container">
         <h2>Coding Skills</h2>
-        <ul>
+        <ul className="pad-left-20">
           <li>HTML5/CSS/Sass</li>
           <li>JavaScript</li>
           <li>Gatsby</li>
@@ -33,7 +34,7 @@ export default function About() {
       </div>
       <div className="about-container">
         <h2>Design Skills</h2>
-        <ul>
+        <ul className="pad-left-20">
           <li>UI Design</li>
           <li>UX Design</li>
           <li>Responsive Web Design</li>
@@ -43,7 +44,7 @@ export default function About() {
       </div>
     <div className="about-container">
         <h2>Design Tools</h2>
-        <ul>
+        <ul className="pad-left-20">
           <li>Adobe CC Illustrator</li>
           <li>Adobe CC Photoshop</li>
           <li>Adobe CC InDesign</li>
