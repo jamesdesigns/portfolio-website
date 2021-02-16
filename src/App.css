@@ -11,7 +11,7 @@ section {
 }
 
 .home,
-.about,
+/* .about, */
 .blog,
 .contact,
 /* .portfolio, */
@@ -24,12 +24,30 @@ section {
 }
 
 .about {
-  background-image: url('../src/images/img-2.jpg');
+  /* background-image: url('../src/images/img-2.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-color: black;
   color: #fff;
   font-size: 100px;
+}
+
+.about-page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-container {
+  background-color: black;
+  color: white;
+  width: 25%;
+  padding: 3rem 8% 5rem;
+}
+
+.about-container:first-child {
+  padding-left: 10%;
 }
 
 .blog {
