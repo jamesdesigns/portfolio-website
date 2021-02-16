@@ -37,6 +37,12 @@
   margin-left: -35px;
 }
 
+span.james-hooper-designs {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
 .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
@@ -87,6 +93,12 @@
 
 @media screen and (max-width: 960px) {
   .logo {
+    margin-top: -35px;
+  }
+
+  span.james-hooper-designs {
+    font-size: 18px;
+    font-weight: 300;
     margin-top: -35px;
   }
 
