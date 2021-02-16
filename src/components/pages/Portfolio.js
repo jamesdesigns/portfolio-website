@@ -12,7 +12,7 @@ export default function Portfolio() {
         <div className="img-card"></div>
         <div className="img-card"></div>
       </div>
-      <div className="container-card">
+      <div className="container-card-2">
         <div className="img-card"></div>
         <div className="img-card"></div>
         <div className="img-card"></div>
