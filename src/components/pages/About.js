@@ -9,7 +9,7 @@ export default function About() {
     <h1 className="about">JAMES HOOPER</h1>
     <div className="about-page">
       <div className="about-container">
-        <h2>Education</h2>
+        <h2 className="pad-btm-20">Education</h2>
         <ul style={{ listStyleType: "none"}}>
           <li>Utah Valley University</li>
           <li>B.S. Web Design & Development</li>
@@ -19,7 +19,7 @@ export default function About() {
         </ul>
       </div>
       <div className="about-container">
-        <h2>Coding Skills</h2>
+        <h2 className="pad-btm-20">Coding Skills</h2>
         <ul className="pad-left-20">
           <li>HTML5/CSS/Sass</li>
           <li>JavaScript</li>
@@ -33,7 +33,7 @@ export default function About() {
         </ul>
       </div>
       <div className="about-container">
-        <h2>Design Skills</h2>
+        <h2 className="pad-btm-20">Design Skills</h2>
         <ul className="pad-left-20">
           <li>UI Design</li>
           <li>UX Design</li>
@@ -42,13 +42,13 @@ export default function About() {
           <li>Illustrations</li>
         </ul>
       </div>
-    <div className="about-container">
-        <h2>Design Tools</h2>
+      <div className="about-container">
+        <h2 className="pad-btm-20">Design Tools</h2>
         <ul className="pad-left-20">
-          <li>Adobe CC Illustrator</li>
-          <li>Adobe CC Photoshop</li>
-          <li>Adobe CC InDesign</li>
-          <li>Adobe CC After Effects</li>
+          <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
+          <li>Adobe InDesign</li>
+          <li>Adobe After Effects</li>
           <li>Sketch</li>
           <li>InVision</li>
         </ul>
