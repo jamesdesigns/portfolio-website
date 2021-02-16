@@ -8,10 +8,27 @@
 .pad-left-20 { padding-left: 20px;}
 .pad-btm-20 { padding-bottom: 20px;}
 
+.large-font-100 { font-size: 100px; }
+
+.center-align { text-align: center; }
+
+.black-bg { background-color: black;}
+
+.gradient-text {
+  background: linear-gradient(to right,#ff8a00,#da1b60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    z-index: 1000;
+}
+
 section {
   display: flex;
   flex-direction: column;
 }
+
+p { line-height: 1.75; }
 
 .home,
 /* .about, */
@@ -27,10 +44,6 @@ section {
 }
 
 .about {
-  /* background-image: url('../src/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
   background-color: black;
   color: #fff;
   font-size: 100px;
@@ -50,6 +63,14 @@ section {
   color: white;
   width: 25%;
   padding: 3rem 0 5rem;
+}
+
+.myStory {
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: black;
+  color: white;
+  padding-bottom: 70px;
 }
 
 
@@ -72,10 +93,6 @@ section {
 }
 
 .portfolio {
-  /* background-image: url('../src/images/img-8.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat; */
   background-color: black;
   color: #fff;
   font-size: 100px;

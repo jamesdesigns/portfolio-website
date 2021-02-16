@@ -54,6 +54,13 @@ export default function About() {
         </ul>
       </div>
     </div>
+    <section className="black-bg">
+      <div className="myStory">
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">My Story</h3>
+      <p>Hi, my name is James Hooper and I love designing professional work for clients. I have been creative my entire life, which ultimately led me to my passion with web design and development. After I earned a bachelors degree in Graphic Design from the University of Utah, I discovered that I wanted to learn everything there was to designing, building, and creating engaging websites.</p>
+      <p>As the years passed, I decided that I needed a career change and I wanted a formal education to help me stand out from the rest. Fortunately, Utah Valley University had the perfect program for me: Bachelor of Science in Web Design and Development. So back to school I went, and I am proud to say that I have earned my second bachelor's degree in Web Design and Development!</p>
+      </div>
+    </section>
     <Footer />
     </>
     );
