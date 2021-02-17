@@ -31,10 +31,8 @@ section {
 p { line-height: 1.75; }
 
 .home,
-/* .about, */
 .blog,
 .contact,
-/* .portfolio, */
 .hire-me {
   display: flex;
   height: 90vh;
