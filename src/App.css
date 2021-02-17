@@ -91,8 +91,8 @@ p { line-height: 1.75; }
 }
 
 .portfolio {
-  background-color: black;
-  color: #fff;
+  background-color: white;
+  color: black;
   font-size: 100px;
 }
 
@@ -110,7 +110,7 @@ p { line-height: 1.75; }
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: white;
   padding-top: 15px;
 }
 
@@ -119,16 +119,20 @@ p { line-height: 1.75; }
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: white;
   padding-bottom: 70px;
 }
 
 .img-card {
   width: 350px;
   height: 250px;
-  background-color: #ccc;
-  border-radius: 10px;
+  background-color: white;
   margin: 15px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .margin-bottom-50 {
