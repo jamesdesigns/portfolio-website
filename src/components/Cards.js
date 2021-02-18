@@ -12,19 +12,19 @@ function Cards() {
           <ul className="cards__items">
 
           <CardItem
-              src="images/Tip-Calculator-Presentational.jpg"
+              src="images/"
               text="Learn how to design websites that attract more users and help them become more engaged."
               label="How to Design and Build websites"
               path="/blog"
             />
             <CardItem
-              src="images/image.jpg"
+              src="images/"
               text="I have been designing for over 10 years for clients and love designing and building websites."
               label="My Story"
               path="/about"
             />
             <CardItem
-              src="images/img-8.jpg"
+              src="images/"
               text="Explore my best design work I have done over the last year."
               label="Web Design Portfolio"
               path="/portfolio"
