@@ -45,6 +45,7 @@ p { line-height: 1.75; }
   background-color: black;
   color: #fff;
   font-size: 100px;
+  padding-bottom: 5%;
 }
 
 .about-page {
@@ -62,6 +63,20 @@ p { line-height: 1.75; }
   width: 25%;
   padding: 3rem 0 5rem;
 }
+
+.about-container:first-child {
+  border: 1px solid white;
+  padding: 30px 30px 0 40px;
+  margin-right: 50px;
+  height: 280px;
+}
+
+.about-container:nth-child(2),
+.about-container:nth-child(3),
+.about-container:nth-child(4) {
+  padding: 25px 30px;
+}
+
 
 .myStory {
   margin-left: 25%;
