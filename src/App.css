@@ -71,12 +71,15 @@ p { line-height: 1.75; }
   height: 280px;
 }
 
+.white-text { color: white; }
+
 .about-container:nth-child(2),
 .about-container:nth-child(3),
 .about-container:nth-child(4) {
   padding: 25px 30px;
 }
 
+li { color: #989898;}
 
 .myStory {
   margin-left: 25%;

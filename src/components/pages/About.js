@@ -12,10 +12,10 @@ export default function About() {
         <h2 className="pad-btm-20">Education</h2>
         <ul style={{ listStyleType: "none"}}>
           <li>Utah Valley University</li>
-          <li>B.S. Web Design & Development</li>
+          <li className="white-text">B.S. Web Design & Development</li>
           <br />
           <li>University of Utah</li>
-          <li>B.F.A. Graphic Design</li>
+          <li className="white-text">B.F.A. Graphic Design</li>
         </ul>
       </div>
       <div className="about-container">
