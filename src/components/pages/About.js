@@ -6,7 +6,10 @@ export default function About() {
 
    return (
     <>
-    <h1 className="about">JAMES HOOPER</h1>
+    <div className="bio-container">
+      <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
+      <h1 className="about">JAMES HOOPER</h1>
+    </div>
     <div className="about-page">
       <div className="about-container">
         <h2 className="pad-btm-20">Education</h2>
@@ -56,7 +59,7 @@ export default function About() {
     </div>
     <section className="black-bg">
       <div className="myStory">
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">My Story</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">I Design things.</h3>
       <p>Hi, my name is James Hooper and I love designing professional work for clients. I have been creative my entire life, which ultimately led me to my passion with web design and development. After I earned a bachelors degree in Graphic Design from the University of Utah, I discovered that I wanted to learn everything there was to designing, building, and creating engaging websites.</p>
       </div>
     </section>
