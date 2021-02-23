@@ -55,7 +55,7 @@ export default function About() {
       <br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3>
       <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Let's go to work!</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Let's meet up!</h3>
       <br />
       <br />
       </div>
