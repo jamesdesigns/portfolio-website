@@ -8,9 +8,10 @@ export default function About() {
    return (
     <>
     <div className="hero-container">
-      <video src="/videos/video-4.mp4" autoPlay loop muted />
+      <video src="/videos/video-1.mp4" autoPlay loop muted />
       <h1>James Hooper</h1>
-      <p>I work hard to create design work that will leave a lasting impression.</p>
+      {/* <p>I work hard to create design work that will leave a lasting impression.</p> */}
+      <p>I am always searching high and low for the beautiful things in life.</p>
     </div>
     <div className="bio-container">
     {/* <h1 className="about">Hello! I am James Hooper.</h1> */}
@@ -40,9 +41,8 @@ export default function About() {
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3>
-      <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Music Aficionado.</h3>
+
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">I love music.</h3>
       <br />
       <br />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
