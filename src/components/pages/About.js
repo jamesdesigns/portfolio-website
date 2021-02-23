@@ -60,7 +60,7 @@ export default function About() {
     </div>
     <section className="black-bg">
       <div className="myStory">
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">I design websites.</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span><br />I design websites</h3>
       <p>Hi, my name is James Hooper and I love designing professional work for clients. I have been creative my entire life, which ultimately led me to my passion with web design and development. After I earned a bachelors degree in Graphic Design from the University of Utah, I discovered that I wanted to learn everything there was to designing, building, and creating engaging websites.</p>
       <br />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
