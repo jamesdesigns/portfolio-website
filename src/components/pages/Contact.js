@@ -19,8 +19,8 @@ export default function Contact() {
 <div className="fs-form-wrap" id="fs-form-wrap">
 				<div class="fs-title">
           <p className="large-font-100 heavy-font-weight">CONTACT</p>
-          {/* <p className="medium-font-30"><b>Email:</b> &nbsp;  jameshooperdesigns@gmail.com</p>
-          <p className="medium-font-30"><b>Text:</b>  &nbsp;&nbsp;&nbsp;&nbsp;  <a className="white-text" href="sms:+18017189727&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">801-718-9727</a></p> */}
+          <p className="medium-font-30"><b>Email:</b> &nbsp;  jameshooperdesigns@gmail.com</p>
+          <p className="medium-font-30"><b>Text:</b>  &nbsp;&nbsp;&nbsp;&nbsp;  <a className="white-text" href="sms:+18017779999&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">801-777-9999</a></p>
         <br />
 				</div>
 				<form id="myform" className="fs-form fs-form-full" autocomplete="off">
