@@ -116,18 +116,20 @@ li { color: #989898;}
 }
 
 .contact {
-  background-image: url('../src/images/img-4.jpg');
-  background-position: center;
+  /* background-image: url('../src/images/img-4.jpg'); */
+  /* background-position: center;
   background-size: fill;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-color: black;
   color: #fff;
-  font-size: 100px;
+  /* font-size: 100px; */
 }
 
 .portfolio {
   background-color: white;
   color: black;
   font-size: 100px;
+  margin-top: 1rem;
 }
 
 .hire-me {

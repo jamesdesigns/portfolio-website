@@ -11,8 +11,9 @@ export default function About() {
       <video src="/videos/video-1.mp4" autoPlay loop muted />
       <h1>James Hooper</h1>
       {/* <p>I work hard to create design work that will leave a lasting impression.</p> */}
-      <p>I am always searching high and low for inspiration in life.</p>
-      <div className="white-text"><small>(The High Uinta Mountains in Northern Utah is one of those places.)</small></div>
+      <p>When I am not working, you can find me in the backcountry.</p>
+      {/* <p>I am always searching high and low for inspiration in life.</p> */}
+      <div className="white-text"><small>(For me, nature is <i>the</i> greatest place to find inspiration.)</small></div>
     </div>
     <div className="bio-container">
     {/* <h1 className="about">Hello! I am James Hooper.</h1> */}
@@ -55,7 +56,7 @@ export default function About() {
       <br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3>
       <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Let's meet up!</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Design is Life.</h3>
       <br />
       <br />
       </div>
