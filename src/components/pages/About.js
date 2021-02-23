@@ -11,7 +11,7 @@ export default function About() {
       <video src="/videos/video-1.mp4" autoPlay loop muted />
       <h1>James Hooper</h1>
       {/* <p>I work hard to create design work that will leave a lasting impression.</p> */}
-      <p>I am always searching high and low for the beautiful things in life.</p>
+      <p>I am always searching high and low for inspiration in life.</p>
     </div>
     <div className="bio-container">
     {/* <h1 className="about">Hello! I am James Hooper.</h1> */}
@@ -21,7 +21,7 @@ export default function About() {
    
     <section className="black-bg">
       <div className="myStory">
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span><br /><br />I design websites.</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span><br /><br />I love music.</h3>
       <p>Hi, my name is James Hooper and I love designing professional work for clients. I have been creative my entire life, which ultimately led me to my passion with web design and development. After I earned a bachelors degree in Graphic Design from the University of Utah, I discovered that I wanted to learn everything there was to designing, building, and creating engaging websites.</p>
       <br />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -32,7 +32,7 @@ export default function About() {
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3>
       <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">I create logos.</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">I design websites.</h3>
       <br />
       <br />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -42,14 +42,19 @@ export default function About() {
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <br /><br />
 
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">I love music.</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">I create logos.</h3>
       <br />
       <br />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Hi, my name is James Hooper and I love designing professional work for clients. I have been creative my entire life, which ultimately led me to my passion with web design and development. After I earned a bachelors degree in Graphic Design from the University of Utah, I discovered that I wanted to learn everything there was to designing, building, and creating engaging websites.</p>
       <br />
       <br />
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
+      <br />
+      <br />
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3>
+      <br /><br />
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Let's get to work!</h3>
       <br />
       <br />
       </div>
