@@ -27,18 +27,18 @@ export default function Contact() {
 					<ol className="fs-fields">
 						<li>
 							<label className="fs-field-label fs-anim-upper" for="q1">What's your name?</label>
-							<input className="fs-anim-lower" id="q1" name="q1" type="text" placeholder="Dean Moriarty" required/>
+							<input className="fs-anim-lower" id="q1" name="q1" type="text" placeholder="Jane Doe" required/>
 						</li>
 						<li>
 							<label className="fs-field-label fs-anim-upper" for="q2" data-info="We won't send you spam, we promise...">What's your email address?</label>
-							<input className="fs-anim-lower" id="q2" name="q2" type="email" placeholder="dean@road.us" required/>
+							<input className="fs-anim-lower" id="q2" name="q2" type="email" placeholder="jane.doe@gmail.com" required/>
 						</li>
 						<li data-input-trigger>
 							<label className="fs-field-label fs-anim-upper" for="q3" data-info="This will help us know what kind of service you need">What's your priority for your new website?</label>
 							<div className="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
 								<span><input id="q3b" name="q3" type="radio" value="conversion"/><label for="q3b" class="radio-conversion">Sell things</label></span>
-								<span><input id="q3c" name="q3" type="radio" value="social"/><label for="q3c" class="radio-social">Become famous</label></span>
-								<span><input id="q3a" name="q3" type="radio" value="mobile"/><label for="q3a" class="radio-mobile">Informational</label></span>
+								<span><input id="q3c" name="q3" type="radio" value="social"/><label for="q3c" class="radio-social">Informational </label></span>
+								<span><input id="q3a" name="q3" type="radio" value="mobile"/><label for="q3a" class="radio-mobile">Become famous</label></span>
 							</div>
 						</li>
 						<li data-input-trigger>
