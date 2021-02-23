@@ -140,6 +140,14 @@ li { color: #989898;}
   font-weight: bold;
 }
 
+.contact-name:focus {
+  border-top: 3px solid black;
+  border-left-color: black;
+  border-right-color: black;
+  border-bottom: 3px solid white;
+  outline: none;
+}
+
 .portfolio {
   background-color: white;
   color: black;
