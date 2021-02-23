@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import Footer from '../Footer'
+import { gsap } from 'gsap';
 
 export default function About() {
 
