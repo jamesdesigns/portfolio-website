@@ -13,7 +13,7 @@ export default function Contact() {
         <p className="medium-font-30"><b>Text:</b>  &nbsp;&nbsp;&nbsp;&nbsp;  <a className="white-text" href="sms:+18017189727&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">801-718-9727</a></p>
         <br />
         <h2>What's your name?</h2>
-        <input type="text" id="name" name="name" />
+        <input className="contact-name" type="text" id="name" name="name" />
       </div>
     </div>
     <Footer />

@@ -127,6 +127,19 @@ li { color: #989898;}
   /* font-size: 100px; */
 }
 
+.contact-name {
+  padding: 35px;
+  width: 100%;
+  background-color: black;
+  border-top: 3px solid black;
+  border-left-color: black;
+  border-right-color: black;
+  border-bottom: 3px solid white;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .portfolio {
   background-color: white;
   color: black;
