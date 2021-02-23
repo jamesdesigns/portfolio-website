@@ -12,7 +12,7 @@ export default function About() {
       <h1>James Hooper</h1>
       {/* <p>I work hard to create design work that will leave a lasting impression.</p> */}
       <p>I am always searching high and low for inspiration in life.</p>
-      <p><small>(The High Uinta Mountains in Northern Utah is one of those places.)</small></p>
+      <div className="white-text"><small>(The High Uinta Mountains in Northern Utah is one of those places.)</small></div>
     </div>
     <div className="bio-container">
     {/* <h1 className="about">Hello! I am James Hooper.</h1> */}
