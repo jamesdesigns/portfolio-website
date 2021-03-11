@@ -15,8 +15,8 @@ export default function Contact() {
 				<div className="contact-container">
 					<h2>Hello! What's your name?</h2>
 					<input className="contact-name" type="text" id="name" name="name" />
-					<br /><br />
-					<h2>What's the best way to contact you?</h2>
+					<br /><br /><br /><br />
+					{/* <h2>What's the best way to contact you?</h2>
 					<input className="contact-name" type="email" id="address" name="email" />
 					<br /><br />
 					<h2>What's your priority for your new website?</h2>
@@ -25,6 +25,9 @@ export default function Contact() {
 					<h2>Choose a color for your website.</h2>
 					<input className="contact-name" type="email" id="address" name="email" />
 					<br /><br />
+					<h2>Describe how you imagine your new website</h2>
+					<input className="contact-name" type="email" id="address" name="email" />
+					<br /><br /> */}
 				</div>
       </div>
     </div> 
