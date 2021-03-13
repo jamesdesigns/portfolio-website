@@ -8,7 +8,7 @@ export default function Contact() {
 
 	const greeting = `Hello! What's your name?`;
 	const [ values, setValues ] = useState({
-		name: '', email: '', phone:''
+		name: '', email: '', phone:'', priority: '', color: '',
 	});
 	// const onChange = (event) => {
 	// 	setValue(event.target.value);
@@ -29,26 +29,29 @@ export default function Contact() {
         <br />
 				<form className="contact-container">
 					<label><h2>{greeting}</h2></label>
-					<input value={values.name} onChange={set('name')} className="contact-name" type="text" id="name" name="name" />
+					<input value={values.name} onChange={set('name')} className="contact-name" type="text" id="name" name="name" required />
 					{/* <p><small>{values.name}</small></p> */}
 					<br /><br /><br /><br />
-					{/*}
-					<label><h2>What's the best way to contact you?</h2></label>
+					
+					{/* <label><h2>What's the best way to contact you?</h2></label>
 					<input value={values.email} onChange={set('email')} className="contact-name" type="email" id="email" name="email" />
 					<input value={values.phone} onChange={set('phone')} className="contact-name" type="phone" id="number" name="phone" />
 					<p><small>{values.email}</small></p>
 					<p><small>{values.phone}</small></p> 
 					<br /><br />
 					
-					<h2>What's your priority for your new website?</h2>
-					<input className="contact-name" type="email" id="address" name="email" />
+					<label><h2>What's your priority for your new website?</h2></label>
+					<input className="contact-name" type="priority" id="priority" name="priority" />
+					<p><small>{values.priority}</small></p>
 					<br /><br />
-					<h2>Choose a color for your website.</h2>
-					<input className="contact-name" type="email" id="address" name="email" />
+					<label><h2>Choose a color for your website.</h2></label>
+					<input className="contact-name" type="color" id="color" name="color" />
+					<p><small>{values.color}</small></p>
 					<br /><br />
-					<h2>Describe how you imagine your new website</h2>
-					<input className="contact-name" type="email" id="address" name="email" />
-					<br /><br /> */}
+					<label><h2>Describe how you imagine your new website</h2></label>
+					<input className="contact-name" type="goal" id="goal" name="goal" />
+					<p><small>{values.goal}</small></p>
+					<br /><br />  */}
 				</form>
       </div>
     </div> 
