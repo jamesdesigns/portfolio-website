@@ -67,9 +67,10 @@ export default function Contact() {
 						<p><small>{values.email}</small></p>
 						<p><small>{values.phone}</small></p>
 						<p><small>{values.goal}</small></p>
+						<button type="submit">SUBMIT</button>
 					</div>
 				</form>
-				<button type="submit">SUBMIT</button>
+			
       </div>
     </div> 
     <Footer />
