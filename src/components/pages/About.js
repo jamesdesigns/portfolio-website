@@ -13,7 +13,7 @@ export default function About() {
       {/* <p>I work hard to create design work that will leave a lasting impression.</p> */}
       <p>When I am not working hard, you can find me in the backcountry.</p>
       {/* <p>I am always searching high and low for inspiration in life.</p> */}
-      <div className="white-text"><small>(For me, nature is <i>the</i> greatest place to find inspiration.)</small></div>
+      {/* <div className="white-text"><small>(For me, nature is <i>the</i> greatest place to find inspiration.)</small></div> */}
     </div>
     <div className="bio-container">
     {/* <h1 className="about">Hello! I am James Hooper.</h1> */}
@@ -66,7 +66,7 @@ export default function About() {
       <br />
       {/* <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3> */}
       <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Always seeking more knowledge.</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Always pushing myself to do more.</h3>
       <br />
       <br />
       </div>
