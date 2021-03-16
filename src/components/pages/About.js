@@ -43,7 +43,7 @@ export default function About() {
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3>
+      {/* <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3> */}
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Sketching.</h3>
       <br />
