@@ -18,7 +18,7 @@ function Cards() {
               path="/blog"
             />
             <CardItem
-              src="images/"
+              src="images/laptop.jpg"
               text="I have been designing for over 10 years for clients and love designing and building websites."
               label="My Story"
               path="/about"
