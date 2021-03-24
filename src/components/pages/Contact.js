@@ -60,7 +60,7 @@ export default function Contact() {
 						<label><p className="form-text-med">Phone:</p></label>
 						<input value={values.phone} onChange={set('phone')} className="contact-name" type="phone" id="phone" name="phone" />
 						<label><p className="form-text-med">How can I help you today?</p></label>
-						<input value={values.goal} onChange={set('goal')} className="contact-name" type="goal" id="goal" name="goal" required />
+						<input value={values.goal} onChange={set('goal')} className="contact-name btm-margin-100" type="goal" id="goal" name="goal" required />
 					</div>
 					<div className="output-form">
 						<p><small>{values.name}</small></p>
