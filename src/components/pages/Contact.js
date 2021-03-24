@@ -53,6 +53,8 @@ export default function Contact() {
         <br />
 				<form onSubmit={onSubmit} className="contact-container">
 					<div className="enter-form">
+					<h2>Let's build your website.</h2>
+					<br />
 						<label><p className="form-text-med">{greeting}</p></label>
 						<input value={values.name} onChange={set('name')} className="contact-name" type="text" id="name" name="name" required />
 						<label><p className="form-text-med">Email:</p></label>

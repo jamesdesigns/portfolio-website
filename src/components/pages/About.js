@@ -11,7 +11,7 @@ export default function About() {
       <video src="/videos/video-1.mp4" autoPlay loop muted />
       <h1>James Hooper</h1>
       {/* <p>I work hard to create design work that will leave a lasting impression.</p> */}
-      <p>When I am not working hard, you can find me in the backcountry.</p>
+      <p>When I am not working hard, you can find me in the mountains.</p>
       {/* <p>I am always searching high and low for inspiration in life.</p> */}
       {/* <div className="white-text"><small>(For me, nature is <i>the</i> greatest place to find inspiration.)</small></div> */}
     </div>
@@ -54,16 +54,7 @@ export default function About() {
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>	&#127925;</span><br />Listening to Music.</h3>
-      <br />
-      <br />
-      <p>Hi, my name is James Hooper and I love designing professional work for clients. I have been creative my entire life, which ultimately led me to my passion with web design and development. After I earned a bachelors degree in Graphic Design from the University of Utah, I discovered that I wanted to learn everything there was to designing, building, and creating engaging websites.</p>
-      <br />
-      <br />
-      <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
-      <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
-      <br />
-      <br />
+      
       {/* <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3> */}
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Always pushing myself to do more.</h3>
