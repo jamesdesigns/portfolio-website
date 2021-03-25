@@ -47,13 +47,13 @@ export default function Contact() {
     <>
     <div className="contact">
       <div className="contact-title">
-        <p className="large-font-75 heavy-font-weight">CONTACT</p>
+        <p className="med-font-35 heavy-font-weight">CONTACT</p>
         <p className="medium-font-30"><b>Email:</b> &nbsp;  jameshooperdesigns@gmail.com</p>
-        <p className="medium-font-30"><b>Text:</b>  &nbsp;&nbsp;&nbsp;&nbsp;  <a className="white-text" href="sms:+18017189727&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">801-718-9727</a></p>
+        <p className="medium-font-30"><b>Text:</b>  &nbsp;&nbsp;&nbsp;&nbsp;  <a className="white-text" href="sms:+189871199999&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">898-711-9999</a></p>
         <br />
 				<form onSubmit={onSubmit} className="contact-container">
 					<div className="enter-form">
-					<h2>Have questions?</h2>
+					<h2 className="margin-top-30">Have questions?</h2>
 					<br />
 						<label><p className="form-text-med">{greeting}</p></label>
 						<input value={values.name} onChange={set('name')} className="contact-name" type="text" id="name" name="name" required />
