@@ -10,15 +10,7 @@ export default function About() {
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
       <h1>James Hooper</h1>
-      {/* <p>I work hard to create design work that will leave a lasting impression.</p> */}
-      <p>When I am not working, you can find me in the mountains.</p>
-      {/* <p>I am always searching high and low for inspiration in life.</p> */}
-      {/* <div className="white-text"><small>(For me, nature is <i>the</i> greatest place to find inspiration.)</small></div> */}
-    </div>
-    <div className="bio-container">
-    {/* <h1 className="about">Hello! I am James Hooper.</h1> */}
-      {/* <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" /> */}
-
+      <p>When I am not working, you can find me in the mountains...</p>
     </div>
    
     <section className="black-bg">
@@ -32,7 +24,7 @@ export default function About() {
       <img className="james-bg" src="images/Outdoors-2.jpg" alt="High Uintas" /><br />
       <img className="james-bg" src="images/Outdoors.jpg" alt="High Uintas" />
       <br /><br />
-      {/* <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3> */}
+
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Exploring.</h3>
       <p>Hi, my name is James Hooper and I love designing professional work for clients. I have been creative my entire life, which ultimately led me to my passion with web design and development. After I earned a bachelors degree in Graphic Design from the University of Utah, I discovered that I wanted to learn everything there was to designing, building, and creating engaging websites.</p>
@@ -43,7 +35,7 @@ export default function About() {
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <br /><br />
-      {/* <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3> */}
+
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Sketching.</h3>
       <br />
@@ -55,7 +47,6 @@ export default function About() {
       <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
       <br /><br />
       
-      {/* <h3 className="large-font-100 center-align pad-btm-20 gradient-text"><span>&#8595;</span></h3> */}
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Always pushing myself to do more.</h3>
       <br />
