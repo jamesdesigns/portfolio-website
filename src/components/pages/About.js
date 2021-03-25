@@ -11,7 +11,7 @@ export default function About() {
       <video src="/videos/video-1.mp4" autoPlay loop muted />
       <h1>James Hooper</h1>
       {/* <p>I work hard to create design work that will leave a lasting impression.</p> */}
-      <p>When I am not working hard, you can find me in the mountains.</p>
+      <p>When I am not working, you can find me in the mountains.</p>
       {/* <p>I am always searching high and low for inspiration in life.</p> */}
       {/* <div className="white-text"><small>(For me, nature is <i>the</i> greatest place to find inspiration.)</small></div> */}
     </div>
