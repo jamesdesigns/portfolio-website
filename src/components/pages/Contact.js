@@ -22,7 +22,7 @@ export default function Contact() {
 	}
 
 	const saveFormData = async () => {
-		const repsonse = await fetch('/api/registration', {
+		const repsonse = await fetch('http://localhost:3000/contact', {
 			method: 'POST',
 			body: JSON.stringify(values)
 		});
@@ -47,7 +47,7 @@ export default function Contact() {
     <>
     <div className="contact">
       <div className="contact-title">
-        <p className="med-font-35 heavy-font-weight">CONTACT</p>
+        <p className="med-font-45 heavy-font-weight">CONTACT</p>
         <p className="medium-font-30"><b>Email:</b> &nbsp;  jameshooperdesigns@gmail.com</p>
         <p className="medium-font-30"><b>Text:</b>  &nbsp;&nbsp;&nbsp;&nbsp;  <a className="white-text" href="sms:+189871199999&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">898-711-9999</a></p>
         <br />
