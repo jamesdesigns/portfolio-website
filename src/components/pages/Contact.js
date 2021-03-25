@@ -53,7 +53,7 @@ export default function Contact() {
         <br />
 				<form onSubmit={onSubmit} className="contact-container">
 					<div className="enter-form">
-					<h2>Let's build a website.</h2>
+					<h2>Have questions?</h2>
 					<br />
 						<label><p className="form-text-med">{greeting}</p></label>
 						<input value={values.name} onChange={set('name')} className="contact-name" type="text" id="name" name="name" required />
@@ -69,7 +69,7 @@ export default function Contact() {
 						<p><small>{values.email}</small></p>
 						<p><small>{values.phone}</small></p>
 						<p><small>{values.goal}</small></p>
-						<button className="btn btn--outline btn--large" type="submit">SUBMIT</button>
+						<button className="btn btn--outline btn--large btn-submit" type="submit">SUBMIT</button>
 					</div>
 				</form>
 			
