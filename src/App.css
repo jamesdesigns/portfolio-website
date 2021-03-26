@@ -7,6 +7,7 @@
 
 .pad-left-20 { padding-left: 20px;}
 .pad-btm-20 { padding-bottom: 20px;}
+.mar-btm-30 { margin-bottom: 30px;}
 .margin-top-30 { margin-top: 30px; }
 .thin-font-weight { font-weight: 100; }
 .heavy-font-weight { font-weight: bold; }
@@ -179,7 +180,8 @@ li { color: #989898;}
 .output-form {
   background-color: black;
   border-radius: 10px;
-  margin: 30px 100px 0;
+  /* margin: 30px 100px 0; */
+  margin: 165px 100px 0;
   color: #23a6d5;
   font-size: 30px;
   width: 350px;

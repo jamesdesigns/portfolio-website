@@ -69,7 +69,7 @@ export default function Contact() {
 						<p><small>{values.email}</small></p>
 						<p><small>{values.phone}</small></p>
 						<p><small>{values.goal}</small></p>
-						<button className="btn btn--outline btn--large btn-submit" type="submit">SUBMIT</button>
+						<button className="btn btn--outline btn--large btn-submit mar-btm-30" type="submit">SUBMIT</button>
 					</div>
 				</form>
 			
