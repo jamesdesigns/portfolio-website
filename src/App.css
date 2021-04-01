@@ -16,6 +16,7 @@
 .med-font-45 { font-size: 45px; }
 .medium-font-50 { font-size: 50px; }
 .medium-font-30 { font-size: 30px; }
+.medium-font-25 { font-size: 25px; }
 .center-align { text-align: center; }
 .black-bg { background-color: black;}
 .gradient-text {
@@ -103,7 +104,15 @@ li { color: #989898;}
   background-color: black;
 }
 
-.pic-1 {
+.mountains-pic-1 {
+  display: flex;
+}
+
+.explore-pic-2 {
+  display: flex;
+}
+
+.sketch-pic-3 {
   display: flex;
 }
 
@@ -253,7 +262,17 @@ li { color: #989898;}
     flex-direction: column;
   }
 
-  .pic-1 {
+  .mountains-pic-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .explore-pic-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sketch-pic-3 {
     display: flex;
     flex-direction: column;
   }
