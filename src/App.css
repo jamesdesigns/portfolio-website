@@ -103,12 +103,17 @@ li { color: #989898;}
   background-color: black;
 }
 
+.pic-1 {
+  display: flex;
+}
+
 .james-bg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: 500px;
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-right: 30px;
+  width: 400px;
+  height: 400px;
 }
 
 .myStory {
@@ -244,6 +249,11 @@ li { color: #989898;}
   }
 
   .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pic-1 {
     display: flex;
     flex-direction: column;
   }
