@@ -26,7 +26,7 @@ function Cards() {
             <CardItem
               src="images/"
               text="Explore my best design work I have done over the last year."
-              label="Web Design Portfolio"
+              label="Design Portfolio"
               path="/portfolio"
             />
           </ul>
