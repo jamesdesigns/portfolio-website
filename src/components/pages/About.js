@@ -16,7 +16,7 @@ export default function About() {
     <section className="black-bg">
       <div className="myStory">
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Hiking.</h3>
-      <p>Hi, my name is James Hooper and I love designing professional work for clients. I have been creative my entire life, which ultimately led me to my passion with web design and development. After I earned a bachelors degree in Graphic Design from the University of Utah, I discovered that I wanted to learn everything there was to designing, building, and creating engaging websites.</p>
+      <p>Hi, my name is James Hooper and I love spending time outdoors when I am not working hard on my design work. Every once in awhile, I need to step away from work and visit the outdoors. Having spent a good portion of my life in the outdoors, it seems to be the one place I can go to feel refreshed. It's like hitting the refresh button. </p>
       <br />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <br />
