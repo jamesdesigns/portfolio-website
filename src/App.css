@@ -17,6 +17,7 @@
 .medium-font-50 { font-size: 50px; }
 .medium-font-30 { font-size: 30px; }
 .medium-font-25 { font-size: 25px; }
+.medium-font-20 { font-size: 20px; }
 .center-align { text-align: center; }
 .black-bg { background-color: black;}
 .gradient-text {
@@ -255,6 +256,12 @@ li { color: #989898;}
   .container-card,
   .container-card-2 {
     flex-direction: column;
+  }
+
+  .contact { padding-left: 15%;}
+
+  .output-form {
+    margin-left: 15%;
   }
 
   .contact-container {

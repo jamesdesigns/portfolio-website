@@ -16,9 +16,8 @@ export default function About() {
     <section className="black-bg">
       <div className="myStory">
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Hiking.</h3>
-      <p>Hi, my name is James Hooper and I love spending time outdoors when I am not working hard on my design work. Every once in awhile, I need to step away from work and visit the outdoors. Having spent a good portion of my life in the outdoors, it seems to be the one place I can go to feel refreshed. It's like hitting the refresh button. </p>
+      <p>Hi, my name is James Hooper and I love spending time hiking in the outdoors when I am not working hard on my design work. Every once in awhile, I need to step away from work and visit the outdoors. Having spent a good portion of my life in the outdoors, it seems to be the one place I can go to feel refreshed. It's like hitting the refresh button. </p>
       <br />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <br />
       <br />
       <div className="mountains-pic-1">
@@ -29,7 +28,7 @@ export default function About() {
 
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Exploring.</h3>
-      <p>I have always enjoyed exploring the beautiful things in life. From drawing portraits, to creating websites, and even experimenting with video production. My mind never stops thinking about new and creative ways of designing the next great project to work on. I will never stop exploring new ways of doing things. Whether it's learning a new skill, or figuring out how to capture the beauty of the backcountry, I am always pushing myself to learn and grow.</p>
+      <p>I have always enjoyed exploring the beautiful things in life. From drawing the intricate form of the human body, to creating interactive websites, and finding myself immersed in the exploring the field of video production. My mind never stops thinking about new and creative ways of designing the next great project to work on. I will never stop exploring new ways of doing things. Whether it's learning a new skill, or figuring out how to capture the beauty of the backcountry, I am always pushing myself to learn and grow.</p>
       <br />
       <p>This video is an example of the places I love to explore and experience in the summer months. Nature is a great place to rejuvenate and refresh the mind. There is something very rewarding about backpacking in 10-12 miles to a campsite and experiencing complete solitude. </p>
       <br />
