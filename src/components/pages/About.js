@@ -16,7 +16,7 @@ export default function About() {
     <section className="black-bg">
       <div className="myStory">
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Hiking.</h3>
-      <p>Hi, my name is James Hooper and I love spending time hiking in the outdoors when I am not working hard on my design work. Every once in awhile, I need to step away from work and visit the outdoors. Having spent a good portion of my life in the outdoors, it seems to be the one place I can go to feel refreshed. It's like hitting the refresh button. </p>
+      <p>Hi, my name is James Hooper and I love spending time hiking in the outdoors when I am not working hard on my design work. Every once in awhile, I need to step away from work and visit the outdoors. It seems to be the one place I can go to feel refreshed, having spent a good portion of my life in the outdoors. It's like hitting the refresh button. </p>
       <br />
       <br />
       <br />
@@ -28,9 +28,9 @@ export default function About() {
 
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Exploring.</h3>
-      <p>I have always enjoyed exploring the beautiful things in life. From drawing the intricate form of the human body, to creating interactive websites, and finding myself immersed in the exploring the field of video production. My mind never stops thinking about new and creative ways of designing the next great project to work on. I will never stop exploring new ways of doing things. Whether it's learning a new skill, or figuring out how to capture the beauty of the backcountry, I am always pushing myself to learn and grow.</p>
+      <p>I have always enjoyed exploring the beautiful things in life. From drawing the intricate form of the human body, to creating interactive websites, and finding myself immersed exploring the work of video production. My mind never stops thinking about new and creative ways of designing the next great project. I will never stop exploring new ways of doing things. Whether it's learning a new skill, or figuring out how to capture the beauty of the backcountry, I am always pushing myself to learn and grow.</p>
       <br />
-      <p>This video is an example of one of many places I enjoy exploring and experiencing in the summer months. Nature is a great place to enjoy complete solitude. This helps your mind rejuvenate and refresh the mind. It also helps you think about what is the most important thing in your life. There is something very rewarding about backpacking for 20-30 miles to a campsite and experiencing complete solitude. Just you, nature and the animals that wonder around your space, curious about foreign visitors.</p>
+      <p>This video is one of many places I enjoy exploring and experiencing in the summer months. Hiking in the backcountry is a great way to enjoy complete solitude. There is something very rewarding about backpacking for 20-30 miles to a campsite and experiencing complete solitude. Just you, nature and the animals that wonder around your space, curious about foreign visitors.</p>
       <br />
       <br />
       <div className="explore-pic-2">
