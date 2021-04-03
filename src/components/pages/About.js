@@ -30,7 +30,7 @@ export default function About() {
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Exploring.</h3>
       <p>I have always enjoyed exploring the beautiful things in life. From drawing the intricate form of the human body, to creating interactive websites, and finding myself immersed in the exploring the field of video production. My mind never stops thinking about new and creative ways of designing the next great project to work on. I will never stop exploring new ways of doing things. Whether it's learning a new skill, or figuring out how to capture the beauty of the backcountry, I am always pushing myself to learn and grow.</p>
       <br />
-      <p>This video is an example of the places I love to explore and experience in the summer months. Nature is a great place to rejuvenate and refresh the mind. There is something very rewarding about backpacking in 10-12 miles to a campsite and experiencing complete solitude. </p>
+      <p>This video is an example of one of many places I enjoy exploring and experiencing in the summer months. Nature is a great place to enjoy complete solitude. This helps your mind rejuvenate and refresh the mind. It also helps you think about what is the most important thing in your life. There is something very rewarding about backpacking for 20-30 miles to a campsite and experiencing complete solitude. Just you, nature and the animals that wonder around your space, curious about foreign visitors.</p>
       <br />
       <br />
       <div className="explore-pic-2">
