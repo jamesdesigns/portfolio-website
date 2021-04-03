@@ -16,7 +16,7 @@ export default function About() {
     <section className="black-bg">
       <div className="myStory">
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Hiking.</h3>
-      <p>Hi, my name is James Hooper and I love spending time hiking in the outdoors when I am not working hard on my design work. Every once in awhile, I need to step away from work and visit the outdoors. It seems to be the one place I can go to feel refreshed, having spent a good portion of my life in the outdoors. It's like hitting the refresh button. </p>
+      <p>Hi, my name is James Hooper and I love spending time hiking in the outdoors when I am not working hard on my design work. Every once in awhile, I need to step away from work to go experience the beauty of nature. It seems to be the one place I can go to feel refreshed, having spent a good portion of my life in the outdoors. It's like hitting the refresh button. </p>
       <br />
       <br />
       <br />
