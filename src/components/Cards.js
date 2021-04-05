@@ -24,7 +24,7 @@ function Cards() {
               path="/about"
             />
             <CardItem
-              src="images/"
+              src="images/personal-website.jpg"
               text="Explore my best design work I have done over the last year."
               label="Design Portfolio"
               path="/portfolio"
