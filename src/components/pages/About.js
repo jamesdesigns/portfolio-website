@@ -49,8 +49,7 @@ export default function About() {
       <br />
       <br />
       <div className="sketch-pic-3">
-        <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
-        <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" />
+        <img className="sketches" src="images/sketches.png" alt="Sketches" />
       </div>
       <br /><br />
       
