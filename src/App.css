@@ -58,6 +58,11 @@ p { line-height: 1.75; }
   padding-bottom: 5%;
 }
 
+.jamesProfileImg {
+  margin-top: -200px;
+  border-radius: 50%;
+}
+
 .contact {
   display: flex;
   /* height: 90vh; */

@@ -9,6 +9,7 @@ export default function About() {
     <>
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
+      <img className="jamesProfileImg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" width="300" height="300" />
       <h1>James Hooper</h1>
       <p>When I am not working, you can find me in the mountains...</p>
     </div>
