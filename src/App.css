@@ -61,6 +61,7 @@ p { line-height: 1.75; }
 .jamesProfileImg {
   margin-top: -200px;
   border-radius: 50%;
+  border: 10px solid #23a6d5;
 }
 
 .contact {
