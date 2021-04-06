@@ -2,6 +2,7 @@ import React from 'react'
 import '../../App.css'
 import Footer from '../Footer'
 import { useState } from 'react'
+import ContactForm from '../ContactForm';
 // import '../Component.css'
 
 
@@ -52,7 +53,7 @@ export default function Contact() {
         <p className="medium-font-20"><b>Email:</b> &nbsp;  jameshooperdesigns@gmail.com</p>
         <p className="medium-font-20"><b>Text:</b>  &nbsp;&nbsp;&nbsp;&nbsp;  <a className="white-text" href="sms:+189871199999&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">898-711-9999</a></p>
         <br />
-				<form 
+				{/* <form 
 					onSubmit={onSubmit} 
 					className="contact-container"
 					>
@@ -73,10 +74,12 @@ export default function Contact() {
 						<p><small>{values.name}</small></p>
 						<p><small>{values.email}</small></p>
 						<p><small>{values.phone}</small></p>
-						<p><small>{values.goal}</small></p>
+						<p><small>{values.goal}</small></p> */}
 						{/* <button className="btn btn--outline btn--large btn-submit mar-btm-30" type="submit">SUBMIT</button> */}
-					</div>
-				</form> 
+					{/* </div>
+				</form>  */}
+
+				<ContactForm />
 			
       </div>
     </div> 
