@@ -320,6 +320,17 @@ li { color: #989898;}
     display: flex;
     flex-direction: column;
   }
+
+  .about-page {
+    display: flex;
+    flex-direction: column;
+}
+
+  .about-container {
+    width: 90%;
+  }
+
+
 }
 
 @media screen and (max-width: 768px) {

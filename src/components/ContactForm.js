@@ -31,7 +31,7 @@ class ContactForm extends Component {
     this.setState({ status: "Sending "});
     axios({
       method: "POST",
-      url: "http://localhost:5000/contact",
+      url: "http://localhost:3000/contact",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "sent") {
@@ -85,6 +85,7 @@ class ContactForm extends Component {
               id="phone"
               value={this.state.phone}
               onChange={this.handleChange.bind(this)}
+              required
             />
           </div>
           <div>
