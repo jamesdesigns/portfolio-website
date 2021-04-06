@@ -59,9 +59,28 @@ p { line-height: 1.75; }
 }
 
 .jamesProfileImg {
-  margin-top: -200px;
+  margin-top: -20px;
   border-radius: 50%;
-  border: 10px solid #23a6d5;
+  /* border: 10px solid #23a6d5; */
+  height: 300px;
+}
+
+.module-border-wrap {
+  max-width:330px;
+  height: 330px;
+  /* padding: 1rem; */
+  padding-left: 20px;
+  position: relative;
+  background: linear-gradient(to right, #23a6d5, #e73c7e);
+  padding: 3px;
+  border-radius: 50%;
+  margin-top: -95px;
+}
+
+.module {
+  border-radius: 50%;
+  padding: 2rem;
+  margin-left: -20px;
 }
 
 .contact {

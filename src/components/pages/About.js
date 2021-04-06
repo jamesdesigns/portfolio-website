@@ -9,7 +9,11 @@ export default function About() {
     <>
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
-      <img className="jamesProfileImg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" width="300" height="300" />
+      <div className="module-border-wrap">
+        <div className="module">
+          <img className="jamesProfileImg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" width="300" height="300" />
+        </div>
+      </div>
       <h1>James Hooper</h1>
       <p>When I am not working, you can find me in the mountains...</p>
     </div>
@@ -29,9 +33,9 @@ export default function About() {
 
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Exploring.</h3>
-      <p>I have always enjoyed exploring the beautiful things in life. From drawing the intricate form of the human body, to creating interactive websites, and finding myself immersed exploring the work of video production. My mind never stops thinking about new and creative ways of designing the next great project. I will never stop exploring new ways of doing things. Whether it's learning a new skill, or figuring out how to capture the beauty of the backcountry, I am always pushing myself to learn and grow.</p>
+      <p>I will never stop exploring new ways of doing things. Whether it's learning a new skill, or figuring out how to capture the beauty of the backcountry, I am always pushing myself to learn and grow.</p>
       <br />
-      <p>This video is one of many places I enjoy exploring and experiencing in the summer months. Hiking in the backcountry is a great way to enjoy complete solitude. There is something very rewarding about backpacking for 20-30 miles to a campsite and experiencing complete solitude. Just you, nature and the animals that wonder around your space, curious about foreign visitors.</p>
+      <p>This video is one of many places I enjoy exploring and experiencing in the summer months. Hiking in the backcountry is a great way to enjoy complete solitude. There is something very rewarding about backpacking for 20-30 miles to a campsite and experiencing complete solitude. Just you, nature and a few animals that wonder around your campsite.</p>
       <br />
       <br />
       <div className="explore-pic-2">
