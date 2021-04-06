@@ -56,7 +56,7 @@ class ContactForm extends Component {
         <div className="enter-form">
         <h2 className="margin-top-30 medium-font-30">Let's create something great.</h2>
           <div>
-            <label htmlFor="name">Name:</label>
+            <label className="medium-font-20" htmlFor="name">Name:</label>
             <input 
               className="contact-name" 
               type="text"
@@ -67,7 +67,7 @@ class ContactForm extends Component {
             />
           </div>
           <div>
-            <label htmlFor="email">Email:</label>
+            <label className="medium-font-20" htmlFor="email">Email:</label>
             <input 
               className="contact-name"
               type="email"
@@ -78,7 +78,7 @@ class ContactForm extends Component {
             />
           </div>
           <div>
-            <label htmlFor="phone">Phone:</label>
+            <label className="medium-font-20" htmlFor="phone">Phone:</label>
             <input 
               className="contact-name"
               type="phone"
@@ -88,7 +88,7 @@ class ContactForm extends Component {
             />
           </div>
           <div>
-            <label htmlFor="goal">How can I help you today?</label>
+            <label className="medium-font-20" htmlFor="goal">How can I help you today?</label>
             <textarea 
               className="contact-name"
               id="goal"
@@ -101,6 +101,8 @@ class ContactForm extends Component {
             className="btn btn--outline btn--large btn-submit mar-btm-60"
             type="submit"
           >{buttonText}</button>
+
+
         </div>
       </form>
     );
