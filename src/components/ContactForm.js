@@ -54,9 +54,11 @@ class ContactForm extends Component {
         method="POST"
         >
         <div className="enter-form">
+        <h2 className="margin-top-30 medium-font-30">Let's create something great.</h2>
           <div>
             <label htmlFor="name">Name:</label>
             <input 
+              className="contact-name" 
               type="text"
               id="name"
               value={this.state.name}
@@ -67,6 +69,7 @@ class ContactForm extends Component {
           <div>
             <label htmlFor="email">Email:</label>
             <input 
+              className="contact-name"
               type="email"
               id="email"
               value={this.state.email}
@@ -77,6 +80,7 @@ class ContactForm extends Component {
           <div>
             <label htmlFor="phone">Phone:</label>
             <input 
+              className="contact-name"
               type="phone"
               id="phone"
               value={this.state.phone}
@@ -86,13 +90,17 @@ class ContactForm extends Component {
           <div>
             <label htmlFor="goal">How can I help you today?</label>
             <textarea 
+              className="contact-name"
               id="goal"
               value={this.state.goal}
               onChange={this.handleChange.bind(this)}
               required
             />
           </div>
-          <button type="submit">{buttonText}</button>
+          <button 
+            className="btn btn--outline btn--large btn-submit mar-btm-60"
+            type="submit"
+          >{buttonText}</button>
         </div>
       </form>
     );
@@ -115,7 +123,7 @@ export default ContactForm;
 						<label><p className="form-text-med">Phone:</p></label>
 						<input value={values.phone} onChange={set('phone')} className="contact-name" type="phone" id="phone" name="phone" />
 						<label><p className="form-text-med">How can I help you today?</p></label>
-						<input value={values.goal} onChange={set('goal')} className="contact-name " type="goal" id="goal" name="goal" required />
+						<input value={values.goal} onChange={set('goal')} className="contact-name" type="goal" id="goal" name="goal" required />
 						<button className="btn btn--outline btn--large btn-submit mar-btm-60" type="submit">SUBMIT</button>
 					</div>
 					<div className="output-form">
