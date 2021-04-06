@@ -4,16 +4,17 @@ import Footer from '../Footer'
 import { useState } from 'react'
 // import '../Component.css'
 
-export default function Contact() {
 
+export default function Contact() {
 	const greeting = `Name:`;
 	const COLORS = ['#588c75','#b0c47f','#f3e395','#f3ae73','#da645a','#79a38f','#c1d099','#f5eaaa','#f5be8f','#e1837b','#9bbaab','#d1dcb2','#f9eec0','#f7cda9'];
 	const [ values, setValues ] = useState({
 		name: '', email: '', phone:'', goal: ''
 	});
+
 	// const onChange = (event) => {
 	// 	setValue(event.target.value);
-	// };
+	// }
 	
 	const set = name => {
 		return ({ target: { value } }) => {
@@ -22,7 +23,7 @@ export default function Contact() {
 	}
 
 	const saveFormData = async () => {
-		const repsonse = await fetch('http://localhost:3000/contact', {
+		const response = await fetch('http://localhost:3000/contact', {
 			method: 'POST',
 			body: JSON.stringify(values)
 		});
@@ -51,7 +52,10 @@ export default function Contact() {
         <p className="medium-font-20"><b>Email:</b> &nbsp;  jameshooperdesigns@gmail.com</p>
         <p className="medium-font-20"><b>Text:</b>  &nbsp;&nbsp;&nbsp;&nbsp;  <a className="white-text" href="sms:+189871199999&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">898-711-9999</a></p>
         <br />
-				<form onSubmit={onSubmit} className="contact-container">
+				<form 
+					onSubmit={onSubmit} 
+					className="contact-container"
+					>
 					<div className="enter-form">
 					<h2 className="margin-top-30 medium-font-20">Let's create something great.</h2>
 					<br />
@@ -72,7 +76,7 @@ export default function Contact() {
 						<p><small>{values.goal}</small></p>
 						{/* <button className="btn btn--outline btn--large btn-submit mar-btm-30" type="submit">SUBMIT</button> */}
 					</div>
-				</form>
+				</form> 
 			
       </div>
     </div> 
