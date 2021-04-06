@@ -62,14 +62,15 @@ export default function Contact() {
 						<label><p className="form-text-med">Phone:</p></label>
 						<input value={values.phone} onChange={set('phone')} className="contact-name" type="phone" id="phone" name="phone" />
 						<label><p className="form-text-med">How can I help you today?</p></label>
-						<input value={values.goal} onChange={set('goal')} className="contact-name btm-margin-100" type="goal" id="goal" name="goal" required />
+						<input value={values.goal} onChange={set('goal')} className="contact-name " type="goal" id="goal" name="goal" required />
+						<button className="btn btn--outline btn--large btn-submit mar-btm-60" type="submit">SUBMIT</button>
 					</div>
 					<div className="output-form">
 						<p><small>{values.name}</small></p>
 						<p><small>{values.email}</small></p>
 						<p><small>{values.phone}</small></p>
 						<p><small>{values.goal}</small></p>
-						<button className="btn btn--outline btn--large btn-submit mar-btm-30" type="submit">SUBMIT</button>
+						{/* <button className="btn btn--outline btn--large btn-submit mar-btm-30" type="submit">SUBMIT</button> */}
 					</div>
 				</form>
 			

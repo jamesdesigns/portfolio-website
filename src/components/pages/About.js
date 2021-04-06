@@ -21,7 +21,7 @@ export default function About() {
     <section className="black-bg">
       <div className="myStory">
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Hiking.</h3>
-      <p>Hi, my name is James Hooper and I love spending time hiking in the outdoors when I am not working hard on my design work. Every once in awhile, I need to step away from work to go experience the beauty of nature. It seems to be the one place I can go to feel refreshed and find inspiration. It's like hitting the refresh button. </p>
+      <p>Hi, my name is James Hooper and I love spending time hiking in the outdoors when I am not working hard on my design work. Once in awhile, I need to step away from work to go experience the beauty of nature. It seems to be the one place I can go to feel refreshed and inspired. For me, it's like hitting the refresh button. </p>
       <br />
       <br />
       <br />
@@ -33,9 +33,9 @@ export default function About() {
 
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Exploring.</h3>
-      <p>I will never stop exploring new ways of doing things. Whether it's learning a new skill, or figuring out how to best capture the beauty of the backcountry, I am always pushing myself to learn and grow.</p>
+      <p>Whether it's learning a new skill, or figuring out how to best capture the beauty of the backcountry, I am always pushing myself to learn and grow. I will never stop exploring new ways of doing things. </p>
       <br />
-      <p>This video is one of many places I enjoy exploring and experiencing in the summer months. There is something very rewarding about backpacking for 20-30 miles to a campsite and experiencing complete solitude. Just you, nature and a few animals that wonder around your campsite.</p>
+      <p>This video is one of many places I enjoy exploring and experiencing in the summer months. There is something very rewarding about backpacking for 20-30 miles to a campsite and experiencing complete solitude. Just me, nature and a few animals that wonder around our campsite.</p>
       <br />
       <br />
       <div className="explore-pic-2">
