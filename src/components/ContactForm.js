@@ -48,49 +48,81 @@ class ContactForm extends Component {
 
 
     return (
-      <form onSubmit={this.handleSubmit.bind(this)} method="POST">
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input 
-            type="text"
-            id="name"
-            value={this.state.name}
-            onChange={this.handleChange.bind(this)}
-            required
-          />
+      <form 
+        className="contact-container"
+        onSubmit={this.handleSubmit.bind(this)} 
+        method="POST"
+        >
+        <div className="enter-form">
+          <div>
+            <label htmlFor="name">Name:</label>
+            <input 
+              type="text"
+              id="name"
+              value={this.state.name}
+              onChange={this.handleChange.bind(this)}
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="email">Email:</label>
+            <input 
+              type="email"
+              id="email"
+              value={this.state.email}
+              onChange={this.handleChange.bind(this)}
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="phone">Phone:</label>
+            <input 
+              type="phone"
+              id="phone"
+              value={this.state.phone}
+              onChange={this.handleChange.bind(this)}
+            />
+          </div>
+          <div>
+            <label htmlFor="goal">How can I help you today?</label>
+            <textarea 
+              id="goal"
+              value={this.state.goal}
+              onChange={this.handleChange.bind(this)}
+              required
+            />
+          </div>
+          <button type="submit">{buttonText}</button>
         </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input 
-            type="email"
-            id="email"
-            value={this.state.email}
-            onChange={this.handleChange.bind(this)}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="phone">Phone:</label>
-          <input 
-            type="phone"
-            id="phone"
-            value={this.state.phone}
-            onChange={this.handleChange.bind(this)}
-          />
-        </div>
-        <div>
-          <label htmlFor="goal">How can I help you today?</label>
-          <textarea 
-            id="goal"
-            value={this.state.goal}
-            onChange={this.handleChange.bind(this)}
-            required
-          />
-        </div>
-        <button type="submit">{buttonText}</button>
       </form>
     );
   }
 }
 
 export default ContactForm;
+
+	{/* <form 
+					onSubmit={onSubmit} 
+					className="contact-container"
+					>
+					<div className="enter-form">
+					<h2 className="margin-top-30 medium-font-20">Let's create something great.</h2>
+					<br />
+						<label><p className="form-text-med">{greeting}</p></label>
+						<input value={values.name} onChange={set('name')} className="contact-name" type="text" id="name" name="name" required />
+						<label><p className="form-text-med">Email:</p></label>
+						<input value={values.email} onChange={set('email')} className="contact-name" type="email" id="email" name="email" required />
+						<label><p className="form-text-med">Phone:</p></label>
+						<input value={values.phone} onChange={set('phone')} className="contact-name" type="phone" id="phone" name="phone" />
+						<label><p className="form-text-med">How can I help you today?</p></label>
+						<input value={values.goal} onChange={set('goal')} className="contact-name " type="goal" id="goal" name="goal" required />
+						<button className="btn btn--outline btn--large btn-submit mar-btm-60" type="submit">SUBMIT</button>
+					</div>
+					<div className="output-form">
+						<p><small>{values.name}</small></p>
+						<p><small>{values.email}</small></p>
+						<p><small>{values.phone}</small></p>
+						<p><small>{values.goal}</small></p> */}
+						{/* <button className="btn btn--outline btn--large btn-submit mar-btm-30" type="submit">SUBMIT</button> */}
+					{/* </div>
+				</form>  */}
