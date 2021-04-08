@@ -15,13 +15,13 @@ export default function About() {
         </div>
       </div>
       <h1>James Hooper</h1>
-      <p>When I am not working, you may find me in the mountains...</p>
+      <p>You may find me in the mountains...</p>
     </div>
    
     <section className="black-bg">
       <div className="myStory">
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Hiking.</h3>
-      <p>Hi, my name is James Hooper and I love spending time hiking in the outdoors when I am not working hard on my design work. Once in awhile, I need to step away from work to go experience the beauty of nature. It seems to be the one place I can go to feel refreshed and inspired. For me, it's like hitting the refresh button. </p>
+      <p>Hi, my name is James Hooper and I love spending time hiking in the outdoors when I am not working hard on my design work. Once in awhile, I need to step away from the computer screen to go do what I enjoy the most, spending time high up on a mountain ledge. It seems to be the one place I can go to feel the most refreshed and inspired. For me, it's like hitting the refresh button. </p>
       <br />
       <br />
       <br />
