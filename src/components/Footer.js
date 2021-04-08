@@ -92,7 +92,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='https://www.linkedin.com/in/james-hooper-64775b163/'
               target='_blank'
               aria-label='LinkedIn'
             >
