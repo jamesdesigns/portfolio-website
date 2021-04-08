@@ -84,7 +84,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link github'
-              to='/'
+              to='https://github.com/jamesdesigns'
               target='_blank'
               aria-label='GitHub'
             >
@@ -92,7 +92,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='https://www.linkedin.com/in/james-hooper-64775b163/'
               target='_blank'
               aria-label='LinkedIn'
             >
