@@ -157,6 +157,11 @@ li { color: #989898;}
   height: 400px;
 }
 
+.youtube-size {
+  width: 750px;
+  height: 422px;
+}
+
 .myStory {
   margin-left: 25%;
   margin-right: 25%;
@@ -331,15 +336,32 @@ li { color: #989898;}
   }
 
   .large-font-100 { font-size: 5.5rem; }
+
   .myStory {
     margin-left: 10%;
     /* margin-right: 10%; */
     margin-right: 10%;
   }
+
   .james-bg {
     width: 100%;
     height: auto;
   }
+
+  .mountains-pic-1 {
+    flex-direction: column;
+  }
+
+  .sketches {
+    width: 100%;
+    height: auto;
+  }
+
+  .youtube-size {
+    width: 100%;
+    height: 300px;
+  }
+  
 
 }
 

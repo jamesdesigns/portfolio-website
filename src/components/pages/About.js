@@ -39,7 +39,7 @@ export default function About() {
       <br />
       <br />
       <div className="explore-pic-2">
-      <iframe width="750" height="422" src="https://www.youtube.com/embed/usuUlLZpX9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className="youtube-size" width="750" height="422" src="https://www.youtube.com/embed/usuUlLZpX9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         {/* <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" /> */}
         {/* <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" /> */}
       </div>
