@@ -330,6 +330,16 @@ li { color: #989898;}
     width: 90%;
   }
 
+  .large-font-100 { font-size: 5.5rem; }
+  .myStory {
+    margin-left: 10%;
+    /* margin-right: 10%; */
+    margin-right: 10%;
+  }
+  .james-bg {
+    width: 100%;
+    height: auto;
+  }
 
 }
 

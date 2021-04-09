@@ -49,7 +49,7 @@ export default function About() {
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Sketching.</h3>
       <br />
       <br />
-      <p>Drawing and sketching is what I do best. I have been an artist my entire life. This is where all my creative ideas come from. Some of the best ideas I come up with come from a simple sketch. It's important to carry around a sketchbook and jot down any and all ideas that come to you.</p>
+      <p>Drawing and sketching is what I enjoy doing the most. This is where all my creative ideas come from. I have been an artist my entire life and some of the best ideas come from a simple sketch. It's important to carry around a sketchbook and jot down any and all ideas that come to you as a creative designer.</p>
       <br />
       <br />
       <div className="sketch-pic-3">
