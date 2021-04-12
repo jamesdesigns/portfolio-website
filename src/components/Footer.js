@@ -42,8 +42,8 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
+            <Link to='/contact'>Contact</Link>
+            {/* <Link to='/'>Support</Link> */}
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
@@ -66,38 +66,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <small class='website-rights'>Copyright © 2021 James Hooper Designs</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link github'
-              to='https://github.com/jamesdesigns'
-              target='_blank'
-              aria-label='GitHub'
-            >
-              <i class='fab fa-github' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='https://www.linkedin.com/in/james-hooper-64775b163/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+            <a class='social-icon-link instagram' target="_blank" href="https://www.instagram.com/artistjameshooper"><i class='fab fa-instagram' /></a>
+            <a class='social-icon-link youtube' target="_blank" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg"><i class='fab fa-youtube' /></a>
+            <a class='social-icon-link github' target="_blank" href="https://github.com/jamesdesigns"><i class='fab fa-github' /></a>
+            <a class='social-icon-link linkedin' target="_blank" href="https://www.linkedin.com/in/james-hooper-64775b163/"><i class='fab fa-linkedin' /></a>
           </div>
         </div>
       </section>
