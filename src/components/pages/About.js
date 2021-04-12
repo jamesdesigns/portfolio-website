@@ -15,7 +15,7 @@ export default function About() {
         </div>
       </div>
       <h1>James Hooper</h1>
-      <p>When I am not creating design work, you may find me in the mountains...</p>
+      <p>When I am not working hard, you may find me in the mountains...</p>
     </div>
    
     <section className="black-bg">
@@ -55,6 +55,7 @@ export default function About() {
         {/* <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" /> */}
         {/* <img className="james-bg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" /> */}
       </div>
+      <br /><br />
       <br /><br />
 
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Always pushing myself to do more.</h3>

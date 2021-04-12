@@ -51,7 +51,7 @@ export default function Contact() {
       <div className="contact-title">
         <p className="med-font-45 heavy-font-weight">CONTACT</p>
         <p className="medium-font-20"><b>Email:</b> &nbsp;  jameshooperdesigns@gmail.com</p>
-        <p className="medium-font-20"><b>Text:</b>  &nbsp;&nbsp;&nbsp;&nbsp;  <a className="white-text" href="sms:+189871199999&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">898-711-9999</a></p>
+        <p className="medium-font-20"><b>Text:</b>  &nbsp;&nbsp;&nbsp;&nbsp;  <a className="white-text" href="sms:+138541999999&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">385-419-9999</a></p>
         <br />
 
 				 {/* <form 
