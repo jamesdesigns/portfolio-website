@@ -40,11 +40,11 @@ function Navbar() {
                 HOME
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
                 BLOG
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 ABOUT
@@ -61,13 +61,13 @@ function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/hire-me" className="nav-links-mobile" onClick={closeMobileMenu}>
                 HIRE ME
               </Link>
-            </li>
+            </li> */}
           </ul>
-          {button && <Button buttonStyle='btn--outline'>HIRE ME</Button>}
+          {/* {button && <Button buttonStyle='btn--outline'>HIRE ME</Button>} */}
         </div>
       </nav>
     </>
