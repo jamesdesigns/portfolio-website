@@ -56,9 +56,9 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='https://www.linkedin.com/in/james-hooper-64775b163/'>LinkedIn</Link>
+            <a target="_blank" href="https://www.instagram.com/artistjameshooper">Instagram</a>
+            <a target="_blank" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg">YouTube</a>
+            <a target="_blank" href="https://www.linkedin.com/in/james-hooper-64775b163/">LinkedIn</a>
           </div>
         </div>
       </div>
