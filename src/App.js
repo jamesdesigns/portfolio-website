@@ -8,6 +8,11 @@ import Blog from './components/pages/Blog'
 import Contact from './components/pages/Contact'
 import Portfolio from './components/pages/Portfolio'
 import HireMe from './components/pages/HireMe'
+import Testimonials from './components/pages/Testimonials'
+import PrivacyPolicy from './components/pages/PrivacyPolicy'
+import TermsOfService from './components/pages/TermsOfService'
+
+
 
 function App() {
   return (
@@ -21,6 +26,9 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/hire-me' component={HireMe} />
+          <Route path='/testimonials' component={Testimonials} />
+          <Route path='/privacypolicy' component={PrivacyPolicy} />
+          <Route path='/termsofservice' component={TermsOfService} />
         </Switch>
       </Router>
     </>
