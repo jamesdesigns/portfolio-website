@@ -21,13 +21,25 @@ export default function About() {
     <section className="black-bg">
       <div className="myStory">
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Hiking.</h3>
-      <p>Hi, my name is James Hooper and I love spending time hiking in the outdoors when I am not working hard on my design work. Once in awhile, I need to step away from the computer screen to go do what I enjoy the most, spending time high up on a mountain ledge. It seems to be the one place I can go to feel the most refreshed and inspired. For me, it's like hitting the refresh button. </p>
+      <p>Hi, my name is James Hooper. When I am not designing for the web you will often find me spending time hiking in the outdoors. Occassionally, I need to step away from the computer screen to go do what I enjoy the most, spending time high up on a mountain ledge. It seems to be the one place I can go to feel the most refreshed and inspired. For me, it's like hitting the refresh button. Experiencing the outdoors like this is what I enjoy outside of the design world. </p>
       <br />
       <br />
       <br />
       <div className="mountains-pic-1">
         <img className="james-bg" src="images/Outdoors-2.jpg" alt="High Uintas" /><br />
         <img className="james-bg" src="images/Outdoors.jpg" alt="High Uintas" />
+      </div>
+      <br /><br />
+
+      <br /><br />
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Sketching.</h3>
+      <br />
+      <br />
+      <p>Drawing and sketching is what I enjoy doing the most. This is where all my creative ideas come from. I have been an artist my entire life and some of the best ideas come from a simple sketch. It's important to carry around a sketchbook and jot down any and all ideas that come to you as a creative designer.</p>
+      <br />
+      <br />
+      <div className="sketch-pic-3">
+        <img className="sketches" src="images/sketches.png" alt="Sketches" />
       </div>
       <br /><br />
 
@@ -45,19 +57,6 @@ export default function About() {
       </div>
       <br /><br />
 
-      <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Sketching.</h3>
-      <br />
-      <br />
-      <p>Drawing and sketching is what I enjoy doing the most. This is where all my creative ideas come from. I have been an artist my entire life and some of the best ideas come from a simple sketch. It's important to carry around a sketchbook and jot down any and all ideas that come to you as a creative designer.</p>
-      <br />
-      <br />
-      <div className="sketch-pic-3">
-        <img className="sketches" src="images/sketches.png" alt="Sketches" />
-      </div>
-      <br /><br />
-      
-      <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Always pushing myself to do more.</h3>
       <br />
       <br />
