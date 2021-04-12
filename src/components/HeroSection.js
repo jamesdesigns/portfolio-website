@@ -10,7 +10,7 @@ function Hero() {
       <h1>Need a Website?</h1>
       <p>I design websites and logos that help you move forward.</p>
       <div className="hero-btns">
-        <Button onClick="window.location.href='/';" className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
+        <Button href="/" className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
           HIRE ME
         </Button>
         {/* 
