@@ -19,10 +19,11 @@ export default function Testimonials() {
             everything that we were looking for in a new logo. I
             highly recommend him!
             <br />
+            <br />
             <div className="test">
               - Lynndsey Eldridge, 
               <a className="testimonialLink" href="https://www.bigmountainbarbell.com" target="_blank">
-              Big Mountain Barbell</a>
+               &nbsp; Big Mountain Barbell</a>
             </div>
           </blockquote>
         </div>
