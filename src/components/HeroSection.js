@@ -13,10 +13,10 @@ function Hero() {
         <Button href="/" className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
           HIRE ME
         </Button>
-        {/* 
+        
         <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
-          WATCH TRAILER <i className="far fa-play-circle" />
-        </Button> */}
+          WATCH MY STORY <i className="far fa-play-circle" />
+        </Button>
       </div>
     </div>
   )
