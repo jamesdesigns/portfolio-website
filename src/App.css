@@ -145,12 +145,9 @@ li { color: #989898;}
 }
 
 .james-bg {
-  /* display: block; */
-  /* margin-left: auto;
-  margin-right: auto; */
   margin-right: 30px;
-  width: 400px;
-  height: 400px;
+  width: 50%;
+  height: auto;
 }
 
 .sketches {
