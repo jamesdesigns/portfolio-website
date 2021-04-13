@@ -8,7 +8,7 @@ export default function Portfolio() {
     <h1 className="portfolio" style={{fontSize: '45px' }}>PORTFOLIO</h1>
     <section>
       <div className="container-card">
-        <div className="img-card"><img src="/images/flexbox-sample.jpg" alt="Flexbox Sample" width="350" height="250" /></div>
+        <div className="img-card"><a href="https://vibrant-leavitt-33e7f0.netlify.app/" target="_blank"><img src="/images/flexbox-sample.jpg" alt="Flexbox Sample" width="350" height="250" /></a></div>
         <div className="img-card"></div>
         <div className="img-card"></div>
       </div>
