@@ -10,7 +10,7 @@ export default function Testimonials() {
   return (
     <>
       <div className="testimonials">
-        <h1 className="margin-top-30 med-font-45">Testimonials</h1>
+        <h1 className="margin-top-30 med-font-45">Satisfaction is Guaranteed</h1>
         <div className="testimonial-container">
           <img className="james" width="200" height="200" src="images/client-bigmountainbarbell.png" alt="Lynndsey - Big Mountain Barbell" />
           <blockquote className="selfQuote">
