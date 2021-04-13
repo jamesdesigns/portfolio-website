@@ -12,7 +12,7 @@ export default function Testimonials() {
       <div className="testimonials">
         <h1 className="margin-top-30 med-font-45">Testimonials</h1>
         <div className="testimonial-container">
-          <img className="james" width="200" height="200" src="img/client-bigmountainbarbell.png" alt="Lynndsey - Big Mountain Barbell" />
+          <img className="james" width="200" height="200" src="images/client-bigmountainbarbell.png" alt="Lynndsey - Big Mountain Barbell" />
           <blockquote className="selfQuote">
             <span className="fixQuote">“</span>
             James was a great designer and he considered

@@ -290,6 +290,14 @@ li { color: #989898;}
   display: flex;
   color: black;
   margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.selfQuote {
+  font-size: 2rem;
+  line-height: .8;
+  margin-bottom: 100px;
 }
 
 .margin-bottom-50 {
