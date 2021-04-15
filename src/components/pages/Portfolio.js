@@ -5,7 +5,7 @@ import Footer from '../Footer'
 export default function Portfolio() {
   return (
     <>
-    <h1 className="portfolio" style={{fontSize: '45px' }}>PORTFOLIO</h1>
+    <h1 className="portfolio thin-font-weight" style={{fontSize: '45px' }}>Web Design Projects</h1>
     <section>
       <div className="container-card">
         <div className="img-card"><a href="https://vibrant-leavitt-33e7f0.netlify.app/" target="_blank"><img src="/images/flexbox-sample.jpg" alt="Flexbox Sample" width="350" height="250" /></a></div>
