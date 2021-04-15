@@ -9,7 +9,7 @@ export default function Portfolio() {
     <section>
       <div className="container-card">
         <div className="img-card"><a href="https://vibrant-leavitt-33e7f0.netlify.app/" target="_blank"><img src="/images/flexbox-sample.jpg" alt="Flexbox Sample" width="350" height="250" /></a></div>
-        <div className="img-card"></div>
+        <div className="img-card"><a href="https://epic-shockley-7f65af.netlify.app/#" target="_blank"><img src="/images/ava-romero-website.jpg" alt="Real Estate Agent Website" width="350" height="250" /></a></div>
         <div className="img-card"></div>
       </div>
       <div className="container-card">
