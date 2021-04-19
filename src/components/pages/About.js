@@ -47,7 +47,7 @@ export default function About() {
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Exploring.</h3>
       <p>Whether it's learning a new skill, or figuring out how to best capture the beauty of the backcountry, I am always pushing myself to learn and grow. I will never stop exploring new ways of doing things. </p>
       <br />
-      <p>This video is one of many places I enjoy exploring and experiencing in the summer months. There is something very rewarding about backpacking for 20-30 miles to a campsite and experiencing complete solitude. Just me, nature and a few animals that wonder around our campsite.</p>
+      <p>I love the process of exploring and researching each page you need in a site map which leads to a more thorough website.</p>
       <br />
       <br />
       <div className="explore-pic-2">
