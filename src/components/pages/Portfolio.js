@@ -15,7 +15,7 @@ export default function Portfolio() {
       <div className="container-card-2">
         <div className="img-card"><a href="https://5fbdf9e6c22f9d947029b895--agitated-payne-af112e.netlify.app/" target="_blank"><img src="/images/react-tip-calculator.jpg" alt="Tip Calculator" width="350" height="250" /></a></div>
         <div className="img-card"><a href="/images/JamesHooper-Validation-Design-Guide-Final.pdf" target="_blank"><img src="/images/validation-design-guide.jpg" alt="Validation Design Guide for Utah's Backcountry Website" width="350" height="250" /></a></div>
-        <div className="img-card"><a href="https://vibrant-leavitt-33e7f0.netlify.app/" target="_blank"><img src="/images/flexbox-sample.jpg" alt="Flexbox Sample" width="350" height="250" /></a></div>
+        <div className="img-card"><a href="https://artistjameshooper.com/dgm2780/index.html" target="_blank"><img src="/images/calmmind-website.png" alt="Bootstrap Yoga Website" width="350" height="225" /></a></div>
       </div>
     </section>
     <Footer />

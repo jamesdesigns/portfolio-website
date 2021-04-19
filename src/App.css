@@ -141,6 +141,7 @@ li { color: #989898;}
 
 .explore-pic-2 {
   display: flex;
+  flex-direction: column;
 }
 
 .sketch-pic-3 {
@@ -156,6 +157,12 @@ li { color: #989898;}
 .sketches {
   width: 800px;
   height: 400px;
+}
+
+.backcountry-website-bg {
+  width: 800px;
+  height: 450px;
+  margin-bottom: 30px;
 }
 
 .youtube-size {
@@ -421,6 +428,11 @@ blockquote {
   }
 
   .sketches {
+    width: 100%;
+    height: auto;
+  }
+
+  .backcountry-website-bg {
     width: 100%;
     height: auto;
   }
