@@ -365,12 +365,16 @@ blockquote {
 
 @media screen and (max-width: 820px) {
 
+  div.cards {
+    padding: 1rem;
+  }
+
   .container-card,
   .container-card-2 {
     flex-direction: column;
   }
 
-  .contact { padding-left: 15%;}
+  .contact { padding-left: 10%;}
 
   .output-form {
     margin-left: 15%;
@@ -404,13 +408,17 @@ blockquote {
   .about-page {
     display: flex;
     flex-direction: column;
+    padding-top: 0;
 }
 
   .about-container {
     width: 90%;
   }
 
-  .large-font-100 { font-size: 5.5rem; }
+  .large-font-100 { 
+    /* font-size: 5.5rem;  */
+    font-size: 3.75rem;
+  }
 
   .myStory {
     margin-left: 10%;
@@ -469,6 +477,12 @@ blockquote {
     /* margin-left: 1rem; */
     font-size: 6rem;
   }
+
+  .enter-form {
+    width: 100%;
+  }
+
+
 
 
 
