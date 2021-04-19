@@ -64,13 +64,14 @@ function Footer() {
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <small class='website-rights'>Copyright © 2021 James Hooper Designs</small>
+        <small class='website-rights'>Copyright © 2021 James Hooper Designs</small>
           <div class='social-icons'>
             <a class='social-icon-link instagram' target="_blank" href="https://www.instagram.com/artistjameshooper"><i class='fab fa-instagram' /></a>
             <a class='social-icon-link youtube' target="_blank" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg"><i class='fab fa-youtube' /></a>
             <a class='social-icon-link github' target="_blank" href="https://github.com/jamesdesigns"><i class='fab fa-github' /></a>
             <a class='social-icon-link linkedin' target="_blank" href="https://www.linkedin.com/in/james-hooper-64775b163/"><i class='fab fa-linkedin' /></a>
           </div>
+         
         </div>
       </section>
     </div>
