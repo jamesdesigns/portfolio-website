@@ -1,6 +1,6 @@
 {
   "name": "portfolio-website",
-  "homepage": "http://jameshooperdesigns.com",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

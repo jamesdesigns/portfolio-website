@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { Button } from './Button'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import JamesLogo from '../images/james-hooper-logo-WHITE-GRAY.svg'
@@ -8,7 +7,8 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false);
-  const [button, setButton] = useState(true)
+  // const [button, setButton] = useState(true)
+  const [setButton] = useState(true)
 
   const showButton = () => {
     if(window.innerWidth <= 960) {
@@ -19,7 +19,7 @@ function Navbar() {
   };
 
   useEffect(() => {
-    showButton();
+    // showButton();
   }, []);
 
   window.addEventListener('resize', showButton);
