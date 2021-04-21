@@ -89,6 +89,10 @@ span.james-hooper-designs {
 }
 
 @media screen and (max-width: 960px) {
+  .navbar {
+    position: sticky;
+  }
+
   .logo {
     margin-top: -35px;
     margin-left: -65px;
