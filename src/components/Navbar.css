@@ -134,13 +134,13 @@ span.james-hooper-designs {
     /* padding: 2rem; */
     width: 100%;
     display: table;
+    padding: 25px 0 15px 0; /* New */
   }
 
   .nav-links:hover {
     background-color: #da3688;
     color: #fff;
     border-radius: 0;
-    padding: 25px 0 15px 0; /* New */
   }
 
   .navbar-logo {
