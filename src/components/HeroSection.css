@@ -67,6 +67,7 @@ video {
 
   .hero-container > p {
     font-size: 30px;
+    line-height: 1.25;
   }
 
   .btn-mobile {
