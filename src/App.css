@@ -83,6 +83,7 @@ p { line-height: 1.75; }
   padding: 3px;
   border-radius: 50%;
   /* margin-top: -95px; */
+  margin-top: 70px; /* This is new */
 }
 
 .module {
