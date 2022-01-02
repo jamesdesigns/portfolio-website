@@ -6,7 +6,7 @@ import Footer from '../Footer'
 export default function About() {
 
    return (
-    <>
+    <div>
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
       <div className="module-border-wrap">
@@ -112,6 +112,6 @@ export default function About() {
     </div>
     </section>
     <Footer />
-    </>
+    </div>
     );
 }

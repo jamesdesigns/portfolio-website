@@ -8,9 +8,9 @@ import Footer from '../Footer'
 export default function TermsOfService() {
 
   return (
-    <>
+    <div>
       <h1 className="test">Terms of Service</h1>
       <Footer />
-    </>
+    </div>
   )
 }

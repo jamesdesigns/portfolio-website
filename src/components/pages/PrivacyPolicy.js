@@ -7,7 +7,7 @@ import Footer from '../Footer'
 export default function PrivacyPolicy() {
 
   return (
-    <>
+    <div>
       <div className="privacy-policy-container">
       <h2 className="margin-top-30">James Hooper Designs Privacy Policy</h2>
 
@@ -88,6 +88,6 @@ For more information about our privacy practices, if you have questions, or if y
   <br /><br /><br /><br />
       </div>
       <Footer />
-    </>
+    </div>
  )
 }

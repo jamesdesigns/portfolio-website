@@ -4,7 +4,7 @@ import Footer from '../Footer'
 
 export default function Portfolio() {
   return (
-    <>
+    <div>
     <h1 className="portfolio thin-font-weight" style={{fontSize: '35px' }}>Design Projects</h1>
     <section>
       <div className="container-card">
@@ -19,6 +19,6 @@ export default function Portfolio() {
       </div>
     </section>
     <Footer />
-    </>
+    </div>
     );
 }

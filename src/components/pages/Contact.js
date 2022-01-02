@@ -9,7 +9,7 @@ import ContactForm from '../ContactForm';
 export default function Contact() {
 
   return (
-    <>
+    <div>
     <div className="contact">
       <div className="contact-title">
         <p className="med-font-45 heavy-font-weight">CONTACT</p>
@@ -20,6 +20,6 @@ export default function Contact() {
       </div>
     </div> 
     <Footer />
-    </>
+    </div>
     )
 }

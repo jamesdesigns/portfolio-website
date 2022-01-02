@@ -17,7 +17,7 @@ import TermsOfService from './components/pages/TermsOfService'
 
 function App() {
   return (
-    <>
+    <div>
       <Router>
         <Navbar />
         <Switch>
@@ -32,7 +32,7 @@ function App() {
           <Route path='/termsofservice' component={TermsOfService} />
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 

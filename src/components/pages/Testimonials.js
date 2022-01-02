@@ -8,7 +8,7 @@ import Footer from '../Footer'
 export default function Testimonials() {
 
   return (
-    <>
+    <div>
       <div className="testimonials">
         <h1 className="margin-top-30 med-font-45 gradient-text">Satisfaction is Guaranteed.</h1>
         <div className="testimonial-container">
@@ -36,6 +36,6 @@ export default function Testimonials() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
