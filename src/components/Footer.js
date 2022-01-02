@@ -56,9 +56,9 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/artistjameshooper">Instagram</a>
-            <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg">YouTube</a>
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/james-hooper-64775b163/">LinkedIn</a>
+            <a rel="noreferrer" href="https://www.instagram.com/artistjameshooper">Instagram</a>
+            <a rel="noreferrer" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg">YouTube</a>
+            <a rel="noreferrer" href="https://www.linkedin.com/in/james-hooper-64775b163/">LinkedIn</a>
           </div>
         </div>
       </div>
@@ -66,10 +66,10 @@ function Footer() {
         <div class='social-media-wrap'>
         <small class='website-rights'>Copyright © 2022 James Hooper Designs</small>
           <div class='social-icons'>
-            <a class='social-icon-link instagram' target="_blank" rel="noreferrer" href="https://www.instagram.com/artistjameshooper"><i class='fab fa-instagram' /></a>
-            <a class='social-icon-link youtube' target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg"><i class='fab fa-youtube' /></a>
-            <a class='social-icon-link github' target="_blank" rel="noreferrer" href="https://github.com/jamesdesigns"><i class='fab fa-github' /></a>
-            <a class='social-icon-link linkedin' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/james-hooper-64775b163/"><i class='fab fa-linkedin' /></a>
+            <a class='social-icon-link instagram' rel="noreferrer" href="https://www.instagram.com/artistjameshooper"><i class='fab fa-instagram' /></a>
+            <a class='social-icon-link youtube' rel="noreferrer" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg"><i class='fab fa-youtube' /></a>
+            <a class='social-icon-link github' rel="noreferrer" href="https://github.com/jamesdesigns"><i class='fab fa-github' /></a>
+            <a class='social-icon-link linkedin' rel="noreferrer" href="https://www.linkedin.com/in/james-hooper-64775b163/"><i class='fab fa-linkedin' /></a>
           </div>
          
         </div>

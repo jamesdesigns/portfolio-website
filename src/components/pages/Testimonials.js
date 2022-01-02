@@ -29,7 +29,7 @@ export default function Testimonials() {
         
             <div className="test">
               - Lynndsey Eldridge, 
-              <a className="testimonialLink" href="https://www.bigmountainbarbell.com" rel="noreferrer" target="_blank">
+              <a className="testimonialLink" href="https://www.bigmountainbarbell.com" rel="noreferrer">
                &nbsp; Big Mountain Barbell</a>
             </div>
           </blockquote>
