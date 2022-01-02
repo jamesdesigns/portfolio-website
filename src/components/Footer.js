@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-      <div class='footer-logo'>
+      <div className='footer-logo'>
             <Link to='/' className='social-logo'>
             {/* <i className="fab fa-artstation"></i>&nbsp;  */}
             <img className="james-logo" src={logo} alt="James Hooper Logo" />
@@ -32,15 +32,15 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/testimonials'>Testimonials</Link>
             <Link to='/privacypolicy'>Privacy Policy</Link>
             <Link to='/termsofservice'>Terms of Service</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/contact'>Contact</Link>
             {/* <Link to='/'>Support</Link> */}
@@ -48,13 +48,13 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Web Design</Link>
             <Link to='/'>Web Development</Link>
             <Link to='/'>Art</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Social Media</h2>
             <a rel="noreferrer" href="https://www.instagram.com/artistjameshooper">Instagram</a>
             <a rel="noreferrer" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg">YouTube</a>
@@ -62,14 +62,14 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-        <small class='website-rights'>Copyright © 2022 James Hooper Designs</small>
-          <div class='social-icons'>
-            <a class='social-icon-link instagram' rel="noreferrer" href="https://www.instagram.com/artistjameshooper"><i class='fab fa-instagram' /></a>
-            <a class='social-icon-link youtube' rel="noreferrer" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg"><i class='fab fa-youtube' /></a>
-            <a class='social-icon-link github' rel="noreferrer" href="https://github.com/jamesdesigns"><i class='fab fa-github' /></a>
-            <a class='social-icon-link linkedin' rel="noreferrer" href="https://www.linkedin.com/in/james-hooper-64775b163/"><i class='fab fa-linkedin' /></a>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+        <small className='website-rights'>Copyright © 2022 James Hooper Designs</small>
+          <div className='social-icons'>
+            <a className='social-icon-link instagram' rel="noreferrer" href="https://www.instagram.com/artistjameshooper"><i className='fab fa-instagram' /></a>
+            <a className='social-icon-link youtube' rel="noreferrer" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg"><i className='fab fa-youtube' /></a>
+            <a className='social-icon-link github' rel="noreferrer" href="https://github.com/jamesdesigns"><i className='fab fa-github' /></a>
+            <a className='social-icon-link linkedin' rel="noreferrer" href="https://www.linkedin.com/in/james-hooper-64775b163/"><i className='fab fa-linkedin' /></a>
           </div>
          
         </div>

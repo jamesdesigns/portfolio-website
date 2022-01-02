@@ -7,8 +7,8 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false);
-  // const [button, setButton] = useState(true)
-  const setButton = useState(true)
+  const [setButton] = useState(true);
+  // const setButton = useState(true)
 
 
   const showButton = () => {
