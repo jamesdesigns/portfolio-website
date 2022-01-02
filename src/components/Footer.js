@@ -64,7 +64,7 @@ function Footer() {
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-        <small class='website-rights'>Copyright © 2021 James Hooper Designs</small>
+        <small class='website-rights'>Copyright © 2022 James Hooper Designs</small>
           <div class='social-icons'>
             <a class='social-icon-link instagram' target="_blank" rel="noreferrer" href="https://www.instagram.com/artistjameshooper"><i class='fab fa-instagram' /></a>
             <a class='social-icon-link youtube' target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UC_c1o-hqAK0CO6RlCQUYKeg"><i class='fab fa-youtube' /></a>
