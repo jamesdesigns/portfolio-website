@@ -31,9 +31,6 @@ html { width: 100%; }
      , #ee7752, #e73c7e, #23a6d5, #23d5ab);
         animation: gradient 15s ease infinite;
         background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-box-decoration-break: clone;
         box-decoration-break: clone;
         z-index: 1000;
 }
