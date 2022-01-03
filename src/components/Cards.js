@@ -7,7 +7,7 @@ function Cards() {
   return (
     <div className="cards">
       <h1 className="thin-font-weight">Learn how you can build beautiful websites.</h1>
-      <div className="cards__contianer">
+      <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
 
