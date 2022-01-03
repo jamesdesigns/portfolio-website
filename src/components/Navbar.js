@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import { Button } from './Button';
 import JamesLogo from '../images/james-hooper-logo-WHITE-GRAY.svg'
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false);
-  const [setButton] = useState(true);
+  const [button, setButton] = useState(true);
   // const setButton = useState(true)
 
 
@@ -20,7 +21,7 @@ function Navbar() {
   };
 
   useEffect(() => {
-    // showButton();
+    showButton();
   }, []);
 
   window.addEventListener('resize', showButton);
@@ -68,7 +69,7 @@ function Navbar() {
               </Link>
             </li> */}
           </ul>
-          {/* {button && <Button buttonStyle='btn--outline'>HIRE ME</Button>} */}
+          {button && <Button buttonStyle='btn--outline'>HIRE ME</Button>}
         </div>
       </nav>
     </div>
