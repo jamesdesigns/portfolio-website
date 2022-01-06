@@ -30,7 +30,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
       >
       <div className="enter-form">
-      <h2 className="margin-top-30 medium-font-30">Do you have questions? </h2>
+      <h2 className="margin-top-30 medium-font-30">Let's chat. I am here to help. </h2>
         <div>
         <label className="medium-font-20" htmlFor="name">Name:</label>
           <input
