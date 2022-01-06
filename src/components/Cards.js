@@ -20,15 +20,15 @@ function Cards() {
             <CardItem
               src="images/laptop-2.jpg"
               text="I have been designing for over 10 years for clients and love designing and building websites."
-              label="My Passions"
+              label="Web Design Templates"
               path="/about"
             />
-            <CardItem
+            {/* <CardItem
               src="images/personal-website.jpg"
               text="Explore my best design work I have done over the last year."
               label="Web Projects"
               path="/portfolio"
-            />
+            /> */}
           </ul>
         </div>
       </div>
