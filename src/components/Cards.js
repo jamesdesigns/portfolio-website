@@ -21,7 +21,7 @@ function Cards() {
               src="images/laptop-2.jpg"
               text="I have been designing for over 10 years for clients and love designing and building websites."
               label="Web Design Templates"
-              path="/about"
+              path="/portfolio"
             />
             {/* <CardItem
               src="images/personal-website.jpg"
