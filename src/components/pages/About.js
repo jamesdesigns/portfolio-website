@@ -14,14 +14,14 @@ export default function About() {
           <img className="jamesProfileImg" src="https://artistjameshooper.com/img/james-hooper-img.jpg" alt="James Hooper" width="300" height="300" />
         </div>
       </div>
-      <h1>James Hooper</h1>
-      <p>When I am not working, you may find me in the mountains...</p>
+      <h1>Hello World.</h1>
+      <p>My name is James, you may find me in the mountains...</p>
     </div>
    
     <section className="black-bg">
       <div className="myStory">
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Hiking.</h3>
-      <p>Hi, my name is James Hooper. When I am not designing for the web you will often find me spending time hiking in the outdoors. Occassionally, I need to step away from the computer screen to rest my eyes and go enjoy spending time high up on a mountain ridge. It seems to be the one place I can go to feel the most refreshed and inspired. For me, it's like hitting the refresh button. Experiencing the outdoors in locations like these few spots is what I enjoy the most outside of the design world. </p>
+      <p>When I am not designing for the web you will often find me spending time hiking in the outdoors. Occassionally, I need to step away from the computer screen to rest my eyes and go enjoy spending time high up on a mountain ridge. It seems to be the one place I can go to feel the most refreshed and inspired. For me, it's like hitting the refresh button. Experiencing the outdoors in locations like these few spots is what I enjoy the most outside of the design world. </p>
       <br />
       <br />
       <br />
@@ -45,9 +45,8 @@ export default function About() {
 
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Exploring.</h3>
-      <p>Whether it's learning a new skill, or figuring out how to best capture the beauty of the backcountry, I am always pushing myself to learn and grow. I will never stop exploring new ways of doing things. </p>
-      <br />
-      <p>I love the process of exploring and researching each page you need in a site map which leads to a more thorough website.</p>
+      <p>Whether it's learning a new skill, or figuring out how to best capture the beauty of the backcountry, I am always pushing myself to learn and grow. I will never stop exploring new ways of doing things.
+      I love the process of exploring and researching each page you need in a site map which leads to a more thorough website.</p>
       <br />
       <br />
       <div className="explore-pic-2">

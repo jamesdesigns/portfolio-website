@@ -134,7 +134,7 @@ span.james-hooper-designs {
     /* padding: 2rem; */
     width: 100%;
     display: table;
-    padding: 25px 0 15px 0; /* New */
+    /* padding: 25px 0 15px 0; */
   }
 
   .nav-links:hover {
@@ -175,8 +175,9 @@ span.james-hooper-designs {
     font-size: 1.5rem;
     background-color: transparent;
     color: #fff;
-    padding: 14px 20px;
-    border: 1px solid #fff;
+    /* padding: 14px 20px; */
+    /* padding: 0; */
+    /* border: 1px solid #fff; */
     transition: all 0.3s ease-out;
   }
 
