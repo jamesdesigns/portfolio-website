@@ -28,6 +28,7 @@ html { width: 100%; }
 .gradient-text {
   font-size: 72px;
   background: linear-gradient(to left, #23a6d5, #e73c7e);
+  background-clip:text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
