@@ -5,7 +5,7 @@ import Footer from '../Footer'
 export default function Portfolio() {
   return (
     <div>
-    <h1 className="portfolio thin-font-weight" style={{fontSize: '35px' }}>Design Projects</h1>
+    <h1 className="portfolio thin-font-weight" style={{fontSize: '35px' }}>Website Templates</h1>
     <section>
       <div className="container-card">
         <div className="img-card"><a href="/" target="_blank"><img src="/images/personal-website-design.jpg" alt="James Hooper Designs Website" width="350" height="250" /></a></div>
