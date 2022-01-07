@@ -199,6 +199,7 @@ li { color: #989898;}
 
 .contact-container {
   display: flex;
+  flex-direction: column;
 }
 
 .enter-form { 
