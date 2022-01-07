@@ -20,7 +20,7 @@ export default function About() {
    
     <section className="black-bg">
       <div className="myStory">
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Hiking.</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Avid Hiker</h3>
       <p>When I am not designing for the web you will often find me spending time hiking in the outdoors. Occassionally, I need to step away from the computer screen to rest my eyes and go enjoy spending time high up on a mountain ridge. It seems to be the one place I can go to feel the most refreshed and inspired. For me, it's like hitting the refresh button. Experiencing the outdoors in locations like these few spots is what I enjoy the most outside of the design world. </p>
       <br />
       <br />
@@ -32,7 +32,7 @@ export default function About() {
       <br /><br />
 
       <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Sketching.</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Sketch Artist</h3>
       <br />
       <br />
       <p>Drawing and sketching is what I enjoy the most when it comes to finding new and innovative ideas. This is where all my creative ideas come from. I have been an artist my entire life and some of the best ideas come from a simple sketch. It's important to carry around a sketchbook and jot down any and all ideas that come to me as a creative designer.</p>
@@ -44,7 +44,7 @@ export default function About() {
       <br /><br />
 
       <br /><br />
-      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Exploring.</h3>
+      <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Passionate Designer</h3>
       <p>Whether it's learning a new skill, or figuring out how to best capture the beauty of the backcountry, I am always pushing myself to learn and grow. I will never stop exploring new ways of doing things.
       I love the process of exploring and researching each page you need in a site map which leads to a more thorough website.</p>
       <br />
