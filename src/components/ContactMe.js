@@ -13,9 +13,9 @@ const ContactMe = () => {
       if (name && email && message) {
         // TODO - Send mail
 
-        const serviceId = 'service_uuiez43';
-        const templateId = 'template_p6d9itj';
-        const userId = 'user_xVcIQK8bavHEa1ja4R9cz';
+        const serviceId = 'service_id';
+        const templateId = 'template_id';
+        const userId = ('user_id');
         const templateParams = {
           name,
           email,
@@ -33,7 +33,7 @@ const ContactMe = () => {
       //     const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       //     return regex.test(String(email).toLowerCase());
       // };
-        alert('Please fill in all fields.');
+        alert('Oops. Please fill out all the fields.');
       }
     }
 
@@ -46,7 +46,9 @@ const ContactMe = () => {
     <input className="contact-name"  type="email" placeholder="Email Address" value={email} onChange={e => setEmail(e.target.value)} />
     <textarea className="contact-name"  placeholder="Message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
     <button className="btn btn--outline btn--large btn-submit mar-btm-60" onClick={submit}>Send Message</button>
-    <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
+    {/* <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch with you in no time!</span><br /><br /><br /> */}
+    <span className={emailSent ? 'visible' : null}><span className="hidden">Thank you for your message, we will be in touch soon!</span></span><br /><br /><br />
+
   </div>
   );
 };
