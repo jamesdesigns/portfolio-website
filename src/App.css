@@ -151,14 +151,16 @@ li { color: #989898;}
 }
 
 .sketches {
-  width: 800px;
-  height: 400px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 .backcountry-website-bg {
-  width: 725px;
-  height: 450px;
+  width: 100%;
+  height: auto;
   margin-bottom: 30px;
+  margin: 0 auto;
 }
 
 .youtube-size {
