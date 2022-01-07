@@ -8,7 +8,7 @@ function Hero() {
     <div className="hero-container">
       <video src="/videos/video-4.mp4" autoPlay loop muted />
       <h1>Need a Website?</h1>
-      <p>I design and build websites that help you move forward.</p>
+      <p>I design and sell websites that help you move forward.</p>
       <div className="hero-btns">
         <Button href="/" className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
           HIRE ME
