@@ -1,13 +1,19 @@
 import React, { useState } from 'react'
 
 const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [emailSent, setEmailSent] = useState(false);
+
+
   return(
   <div id="contact-form">
-    <input type="text" placeholder="Your Name" />
-    <input type="email" placeholder="Your Email Address" />
-    <textarea placeholder="Your message"></textarea>
-    <button>Send Message</button>
-    <span>Thank you for your message, we will be in touch in no time!</span>
+    <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
+    <input type="email" placeholder="Your Email Address" value={email} onChange={e => setEmail(e.target.value)} />
+    <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
+    <button onClick={submit}>Send Message</button>
+    <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
   </div>
   );
 };
