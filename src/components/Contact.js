@@ -1,10 +1,41 @@
 import React, { useState } from 'react'
 
+
+
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [emailSent, setEmailSent] = useState(false);
+
+    const submit = () => {
+      if (name && email && message) {
+        // TODO - Send mail
+
+        const serviceId = 'service_id';
+        const templateId = 'template_id';
+        const userId = 'user_id';
+        const templateParams = {
+          name,
+          email,
+          message
+        }
+
+        emailjs.send(serviceId, templateId, templateParams, userId).then(response => console.log(response)).then(error => console.log(error));
+    
+        setName('');
+        setEmail('');
+        setMessage('');
+        setEmailSent(true);
+      } else {
+        alert('Please fill in all fields.');
+      }
+    }
+
+    const isValidEmail = email => {
+      const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return regex.test(String(email).toLowerCase());
+  };
 
 
   return(
