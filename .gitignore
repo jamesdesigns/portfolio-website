@@ -6,7 +6,7 @@
 /.pnp
 .pnp.js
 /videos
-/components/ContactMe
+/components/pages/ContactMe.js
 
 # testing
 /coverage
