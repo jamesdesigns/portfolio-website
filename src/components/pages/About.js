@@ -21,7 +21,7 @@ export default function About() {
     <section className="black-bg">
       <div className="myStory">
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Avid Hiker</h3>
-      <p>When I am not designing for the web you will often find me spending time hiking in the outdoors. Occassionally, I need to step away from the computer screen to rest my eyes and go enjoy spending time high up on a mountain ridge. It seems to be the one place I can go to feel the most refreshed and inspired. For me, it's like hitting the refresh button. Experiencing the outdoors in locations like these few spots is what I enjoy the most outside of the design world. </p>
+      <p>When I am not designing for the web you will often find me spending time hiking in the mountains. Occassionally, I need to step away from the computer screen and go enjoy spending time high up on a mountain ridge. It seems to be the one place I can go to rejuvenate and find inspiration. For me, it's like hitting the refresh button. Experiencing the outdoors in locations as beautiful as these images, is a great way to spend outside of the design world. </p>
       <br />
       <br />
       <br />
@@ -45,8 +45,8 @@ export default function About() {
 
       <br /><br />
       <h3 className="large-font-100 center-align pad-btm-20 gradient-text">Passionate Designer</h3>
-      <p>Whether it's learning a new skill, or figuring out how to best capture the beauty of the backcountry, I am always pushing myself to learn and grow. I will never stop exploring new ways of doing things.
-      I love the process of exploring and researching each page you need in a site map which leads to a more thorough website.</p>
+      <p>Whether it's learning a new skill, or figuring out how to best capture the beauty of the backcountry, I am always pushing myself to learn and grow as a designer. I will never stop exploring new ways of doing things.
+      I love the process of exploring and researching the best methods for creating a more thorough website.</p>
       <br />
       <br />
       <div className="explore-pic-2">
