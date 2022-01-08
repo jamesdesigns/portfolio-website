@@ -15,7 +15,7 @@ export default function About() {
         </div>
       </div>
       <h1>Hello World.</h1>
-      <p>My name is James and this is my passions.</p>
+      <p>My name is James and this is my passion.</p>
     </div>
    
     <section className="black-bg">
