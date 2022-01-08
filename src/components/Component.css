@@ -342,17 +342,6 @@ button.fs-continue,
 	transform: translate(-50%,-50%);
 }
 
-.fs-fields .fs-radio-custom label.radio-mobile::after {
-	/* background-image: url(../img/mobile.svg); */
-}
-
-.fs-fields .fs-radio-custom label.radio-social::after {
-	/* background-image: url(../img/social.svg); */
-}
-
-.fs-fields .fs-radio-custom label.radio-conversion::after {
-	/* background-image: url(../img/conversion.svg); */
-}
 
 .fs-fields .fs-radio-custom label:hover::after,
 .fs-fields input[type="radio"]:focus + label::after,
