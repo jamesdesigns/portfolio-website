@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This website was created with React: (https://61d9ce6374e734900d465426--infallible-tesla-b3f477.netlify.app/).
+This website was created with React: (https://infallible-tesla-b3f477.netlify.app/).
 
 ## Available Scripts
 
