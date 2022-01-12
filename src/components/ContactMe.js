@@ -1,27 +1,15 @@
-import React, { useState } from 'react'
-import emailjs from 'emailjs-com'
+import React, { useState, useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 
 const ContactMe = () => {
+  
+  const form = useRef();
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [emailSent, setEmailSent] = useState(false);
-
-  window.onload = function() {
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        // generate a five digit number for the contact_number variable
-        this.contact_number.value = Math.random() * 100000 | 0;
-        // these IDs from the previous steps
-        emailjs.sendForm('contact_service', 'contact_form', this)
-            .then(function() {
-                console.log('SUCCESS!');
-            }, function(error) {
-                console.log('FAILED...', error);
-            });
-    });
-  }
 
 
     const submit = () => {
@@ -40,6 +28,7 @@ const ContactMe = () => {
           email,
           message
         }
+        
 
         emailjs.send(serviceId, templateId, templateParams, userId).then(response => console.log(response)).then(error => console.log(error));
     
@@ -52,18 +41,30 @@ const ContactMe = () => {
       }
     }
 
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('SERVICEID', 'TEMPLATEID', form.current, 'USERID')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
 
 
 
   return(
+    <form ref={form} onSubmit={sendEmail}>
   <div id="contact-form" className="contact-container">
-    <input className="contact-name" type="text" placeholder="Name" value={name} onChange={e => setName(e.target.value)} />
-    <input className="contact-name"  type="email" placeholder="Email Address" value={email} onChange={e => setEmail(e.target.value)} />
-    <textarea className="contact-name"  placeholder="Message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-    <button className="btn btn--outline btn--large btn-submit mar-btm-60" onClick={submit}>Send Message</button>
-    <span className={emailSent ? 'visible' : null}><span className="hidden">Thank you for your message, we will be in touch soon!</span></span><br /><br /><br />
-
+      <input className="contact-name" type="text" placeholder="Name" value={name} onChange={e => setName(e.target.value)} />
+      <input className="contact-name"  type="email" placeholder="Email Address" value={email} onChange={e => setEmail(e.target.value)} />
+      <textarea className="contact-name"  placeholder="Message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
+      <button className="btn btn--outline btn--large btn-submit mar-btm-60" onClick={submit}>Send Message</button>
+      <span className={emailSent ? 'visible' : null}><span className="hidden">Thank you for your message, we will be in touch soon!</span></span><br /><br /><br />
   </div>
+  </form>
   );
 };
 
