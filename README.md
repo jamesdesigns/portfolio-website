@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This website was created with React: (https://61d9ce6374e734900d465426--infallible-tesla-b3f477.netlify.app/).
+This website was created with React: (https://infallible-tesla-b3f477.netlify.app/).
 
 ## Available Scripts
 
@@ -68,4 +68,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Portfolio Website
+
