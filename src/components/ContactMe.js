@@ -20,9 +20,9 @@ const ContactMe = () => {
 
         const USERID = process.env.REACT_APP_API_KEY_USERID;
         const TEMPLATEID = process.env.REACT_APP_TEMPLATEID;
-        const SERVICEID = process.env.REACT_APP_SERVICEID;
+        const SERVICEID = process.env.REACT_APP_SERVICEID; 
 
-        const serviceId = SERVICEID;
+        const myserviceId = SERVICEID;
         const templateId = TEMPLATEID;
         const userId = USERID;
         const templateParams = {
@@ -32,7 +32,7 @@ const ContactMe = () => {
         }
 
 
-        emailjs.send(serviceId, templateId, templateParams, userId).then(response => console.log(response)).then(error => console.log(error));
+        emailjs.send(myserviceId, templateId, templateParams, userId).then(response => console.log(response)).then(error => console.log(error));
     
         setName('');
         setEmail('');
