@@ -42,9 +42,14 @@ const ContactMe = () => {
     }
 
     const sendEmail = (e) => {
+      const USERID = process.env.REACT_APP_API_KEY_USERID;
+      const TEMPLATEID = process.env.REACT_APP_TEMPLATEID;
+      const SERVICEID = process.env.REACT_APP_SERVICEID;
+
+
       e.preventDefault();
   
-      emailjs.sendForm('SERVICEID', 'TEMPLATEID', form.current, 'USERID')
+      emailjs.sendForm(SERVICEID, TEMPLATEID, form.current, USERID)
         .then((result) => {
             console.log(result.text);
         }, (error) => {
